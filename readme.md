@@ -4,7 +4,7 @@ Here's a small collection of themes (some cloned from other apps we love) for [N
 
 ## Installing new scripts
 
-To install a new theme, simply download the .json file, open NotePlan 3 Preferences > Themes, and choose `Import Theme...`. Custom themes are listed below the default built in themes. 
+To install a new theme, simply download the .json file, open NotePlan 3 Preferences > Themes, and choose `Import Theme...`. Custom themes are listed below the default built-in themes. 
 
 ## Contributing
 
