@@ -1,244 +1,191 @@
 {
-    "name": "Freestraction Simplified Dark",
-    "style": "Dark",
-    "author": {
-        "name": "Shawn Blanc",
-        "email": "desk@shawnblanc.net"
+  "name": "Freestraction Simplified Dark",
+  "style": "Dark",
+  "author": {
+    "name": "Shawn Blanc",
+    "email": "desk@shawnblanc.net"
+  },
+  "editor": {
+    "backgroundColor": "#1a1a1a",
+    "altBackgroundColor": "#FAFFFF",
+    "tintColor": "#6b8e9d",
+    "tintColor2": "#c23184",
+    "textColor": "#999999",
+    "toolbarBackgroundColor": "#1a1a1a",
+    "toolbarIconColor": "#999999",
+    "menuItemColor": "#999999",
+    "shouldOverwriteFont": false
+  },
+  "styles": {
+    "body": {
+      "font": "HelveticaNeue",
+      "size": 14,
+      "color": "#999999"
     },
-    
-    "editor": {
-        "backgroundColor": "#1a1a1a",
-        "altBackgroundColor": "#FAFFFF",
-        "tintColor": "#6b8e9d",
-        "tintColor2": "#c23184",
-        "textColor":"#999999",
-        "toolbarBackgroundColor": "#1a1a1a",
-        "toolbarIconColor": "#999999",
-        "menuItemColor": "#999999",
-        "shouldOverwriteFont": false
+    "title1": {
+      "color": "#009bc9",
+      "font": "HelveticaNeue-Bold",
+      "size": 18
     },
-
-    "styles": {
-        
-        "body": {
-            "font": "HelveticaNeue",
-            "size": 14,
-            "color": "#999999",
-        },
-        
-        "title1": {
-            "color": "#009bc9",
-            "font": "HelveticaNeue-Bold",
-            "size": 18
-        },
-        
-        "title2": {
-            "color": "#009bc9",
-            "font": "HelveticaNeue-Bold",
-            "size": 16
-        },
-        
-        "title3": {
-            "color": "#009bc9",
-                        "font": "HelveticaNeue-Bold",
-            "size": 14
-        },
-        
-        "title-mark1": {
-            "color": "#009bc9",
-            "size": 18,
-            "font": "HelveticaNeue-Bold"
-        },
-        
-        "title-mark2": {
-           "color": "#009bc9",
-           "size": 16,
-           "font": "HelveticaNeue-Bold"
-        },
-        
-        "title-mark3": {
-           "color": "#009bc9",
-           "size": 14,
-           "font": "HelveticaNeue-Bold"
-        },
-        
-        "bold": {
-           "color": "#999999",
-           "size": 14,
-           "font": "HelveticaNeue-Bold"
-        },
-        
-        "bold-left-mark": {
-            "color": "#999999"
-        },
-        
-        "bold-right-mark": {
-            "color": "#999999"
-        },
-        
-        "italic": {
-            "color": "#999999",
-           "size": 14,
-            "font": "HelveticaNeue-Italic"
-        },
-        
-        "italic-left-mark": {
-            "color": "#999999"
-        },
-        
-        "italic-right-mark": {
-            "color": "#999999"
-        },
-        
-        "boldItalic": {
-            "color": "#999999",
-           "size": 14,
-            "font": "HelveticaNeue-BoldItalic"
-        },
-        
-        "boldItalic-left-mark": {
-            "color": "#999999"
-        },
-        
-        "boldItalic-right-mark": {
-            "color": "#999999"
-        },
-        
-        "code": {
-            "font": "Menlo",
-            "color": "#009155",
-            "backgroundColor": "#182520"
-
-        },
-        
-        "checked": {
-            "color": "#77999999",
-            "headIndent": 33
-        },
-        
-        "todo": {
-            "font": "noteplanstate",
-            "color": "#009bc9",
-            "headIndent": 33,
-            "size": 14
-        },
-        
-        "checked-todo-characters": {
-            "font": "noteplanstate",
-            "headIndent": 33,
-            "size": 14
-        },
-        
-        "special-char": {
-            "color": "#999999",
-            "font": "Menlo"
-        },
-        
-        "tabbed": {
-            "headIndent": 43
-        },
-        
-        "quote-mark": {
-            "color": "#133e4b",
-            "font": "noteplanstate",
-            "headIndent": 33,
-            "size": 14
-        },
-        
-        "quote-content": {
-            "color": "#999999",
-            "type": "italic",
-            "headIndent": 33,
-            "font": "HelveticaNeue-Italic",
-                        "size": 14
-        },
-        
-        "link": {
-            "backgroundColor": "#242424"
-           
-        },
-                        
-        "schedule-to-date-link": {
-          
-        },
-        
-        "done-date": {
-            
-        },
-        
-        "schedule-from-date-link": {
-        
-        },
-
-        "note-title-link": {
-        
-        },
-        
-        "hashtag": {
-           
-        },
-        
-        "attag": {
-         
-        },
-        
-        "phonenumber": {
-       
-        },
-		"highlighted": {
-		"regex": "(::)([^:]{1,})(::)",
-		"matchPosition": 2,
-		"isRevealOnCursorRange": true,
-		"color":"#9f8e43",
-		"backgroundColor": "#2c2c1c"
-		},
-		"highlighted-left-colon": {
-		"regex": "(::)([^:]{1,})(::)",
-		"matchPosition": 1,
-		"isMarkdownCharacter": true,
-		"isHiddenWithoutCursor": true,
-		"isRevealOnCursorRange": true,
-		"color": "#dbc831"
-		},
-		"highlighted-right-colon": {
-		"regex": "(::)([^:]{1,})(::)",
-		"matchPosition": 3,
-		"isMarkdownCharacter": true,
-		"isHiddenWithoutCursor": true,
-		"isRevealOnCursorRange": true,
-		"color": "#dbc831"
-		},
-		 "code-left-backtick": {
-            "color": "#009155"
-        },
-        
-        "code-right-backtick": {
-            "color": "#009155"
-        },
-            "strikethrough": {
-            "regex": "(~~)([^~]{1,})(~~)",
-            "matchPosition": 2,
-            "strikethroughStyle": 1,
-            "color": "#009bc9",
-            "isRevealOnCursorRange": true
-        },
-
-        "strikethrough-left-tilde": {
-            "regex": "(~~)([^~]{1,})(~~)",
-            "matchPosition": 1,
-            "isMarkdownCharacter": true,
-            "isHiddenWithoutCursor": true,
-            "color": "#133e4b",
-            "isRevealOnCursorRange": true
-        },
-
-        "strikethrough-right-tilde": {
-            "regex": "(~~)([^~]{1,})(~~)",
-            "matchPosition": 3,
-            "isMarkdownCharacter": true,
-            "color": "#133e4b",
-            "isHiddenWithoutCursor": true,
-            "isRevealOnCursorRange": true
-        }
+    "title2": {
+      "color": "#009bc9",
+      "font": "HelveticaNeue-Bold",
+      "size": 16
+    },
+    "title3": {
+      "color": "#009bc9",
+      "font": "HelveticaNeue-Bold",
+      "size": 14
+    },
+    "title-mark1": {
+      "color": "#009bc9",
+      "size": 18,
+      "font": "HelveticaNeue-Bold"
+    },
+    "title-mark2": {
+      "color": "#009bc9",
+      "size": 16,
+      "font": "HelveticaNeue-Bold"
+    },
+    "title-mark3": {
+      "color": "#009bc9",
+      "size": 14,
+      "font": "HelveticaNeue-Bold"
+    },
+    "bold": {
+      "color": "#999999",
+      "size": 14,
+      "font": "HelveticaNeue-Bold"
+    },
+    "bold-left-mark": {
+      "color": "#999999"
+    },
+    "bold-right-mark": {
+      "color": "#999999"
+    },
+    "italic": {
+      "color": "#999999",
+      "size": 14,
+      "font": "HelveticaNeue-Italic"
+    },
+    "italic-left-mark": {
+      "color": "#999999"
+    },
+    "italic-right-mark": {
+      "color": "#999999"
+    },
+    "boldItalic": {
+      "color": "#999999",
+      "size": 14,
+      "font": "HelveticaNeue-BoldItalic"
+    },
+    "boldItalic-left-mark": {
+      "color": "#999999"
+    },
+    "boldItalic-right-mark": {
+      "color": "#999999"
+    },
+    "code": {
+      "font": "Menlo",
+      "color": "#009155",
+      "backgroundColor": "#182520"
+    },
+    "checked": {
+      "color": "#77999999",
+      "headIndent": 33
+    },
+    "todo": {
+      "font": "noteplanstate",
+      "color": "#009bc9",
+      "headIndent": 33,
+      "size": 14
+    },
+    "checked-todo-characters": {
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 14
+    },
+    "special-char": {
+      "color": "#999999",
+      "font": "Menlo"
+    },
+    "tabbed": {
+      "headIndent": 43
+    },
+    "quote-mark": {
+      "color": "#133e4b",
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 14
+    },
+    "quote-content": {
+      "color": "#999999",
+      "type": "italic",
+      "headIndent": 33,
+      "font": "HelveticaNeue-Italic",
+      "size": 14
+    },
+    "link": {
+      "backgroundColor": "#242424"
+    },
+    "schedule-to-date-link": {},
+    "done-date": {},
+    "schedule-from-date-link": {},
+    "note-title-link": {},
+    "hashtag": {},
+    "attag": {},
+    "phonenumber": {},
+    "highlighted": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 2,
+      "isRevealOnCursorRange": true,
+      "color": "#9f8e43",
+      "backgroundColor": "#2c2c1c"
+    },
+    "highlighted-left-colon": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#dbc831"
+    },
+    "highlighted-right-colon": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#dbc831"
+    },
+    "code-left-backtick": {
+      "color": "#009155"
+    },
+    "code-right-backtick": {
+      "color": "#009155"
+    },
+    "strikethrough": {
+      "regex": "(~~)([^~]{1,})(~~)",
+      "matchPosition": 2,
+      "strikethroughStyle": 1,
+      "color": "#009bc9",
+      "isRevealOnCursorRange": true
+    },
+    "strikethrough-left-tilde": {
+      "regex": "(~~)([^~]{1,})(~~)",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "color": "#133e4b",
+      "isRevealOnCursorRange": true
+    },
+    "strikethrough-right-tilde": {
+      "regex": "(~~)([^~]{1,})(~~)",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "color": "#133e4b",
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true
     }
+  }
 }

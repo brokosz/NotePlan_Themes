@@ -1,257 +1,202 @@
 {
-    "name": "Squid Ink Light",
-    "style": "Light",
-    "author": {
-        "name": "Brad Rokosz",
-        "email": "hello@noteplan.co"
+  "name": "Squid Ink Light",
+  "style": "Light",
+  "author": {
+    "name": "Brad Rokosz",
+    "email": "hello@noteplan.co"
+  },
+  "editor": {
+    "backgroundColor": "#ffffff",
+    "altBackgroundColor": "#FAFFFF",
+    "tintColor": "#f8991c",
+    "tintColor2": "#00a6ce",
+    "textColor": "#212f3e",
+    "toolbarBackgroundColor": "#FAFFFF",
+    "toolbarIconColor": "#f8991c",
+    "menuItemColor": "#f8991c",
+    "shouldOverwriteFont": false
+  },
+  "styles": {
+    "body": {
+      "font": "AmazonEmber-Regular",
+      "size": 16,
+      "color": "#212f3e"
     },
-    
-    "editor": {
-        "backgroundColor": "#ffffff",
-        "altBackgroundColor": "#FAFFFF",
-        "tintColor": "#f8991c",
-        "tintColor2": "#00a6ce",
-        "textColor":"#212f3e",
-        "toolbarBackgroundColor": "#FAFFFF",
-        "toolbarIconColor": "#f8991c",
-        "menuItemColor": "#f8991c",
-        "shouldOverwriteFont": false
+    "title1": {
+      "color": "#212f3e",
+      "size": 28
     },
-
-    "styles": {
-        
-        "body": {
-            "font": "AmazonEmber-Regular",
-            "size": 16,
-            "color": "#212f3e",
-        },
-        
-        "title1": {
-            "color": "#212f3e",
-            "size": 28
-        },
-        
-        "title2": {
-            "color": "#212f3e",
-            "size": 24
-        },
-        
-        "title3": {
-            "color": "#212f3e",
-            "size": 20
-        },
-        
-        "title-mark1": {
-            "color": "#00a6ce",
-            "size": 28
-                    },
-        
-        "title-mark2": {
-           "color": "#00a6ce",
-           "size": 24
-        },
-        
-        "title-mark3": {
-           "color": "#00a6ce",
-           "size": 20
-        },
-        
-        "bold": {
-            "size": 16,
-            "color": "#00a6ce",
-            "font": "AmazonEmber-Bold"
-        },
-        
-        "bold-left-mark": {
-            "color": "#00a6ce"
-        },
-        
-        "bold-right-mark": {
-            "color": "#00a6ce"
-        },
-        
-        "italic": {
-            "size": 16,
-            "color": "#00a6ce",
-            "font": "AmazonEmber-Italic"
-        },
-        
-        "italic-left-mark": {
-            "color": "#00a6ce"
-        },
-        
-        "italic-right-mark": {
-            "color": "#00a6ce"
-        },
-        
-        "boldItalic": {
-            "size": 16,
-                        "color": "#00a6ce",
-            "font": "AmazonEmber-BoldItalic"
-        },
-        
-        "boldItalic-left-mark": {
-            "color": "#00a6ce"
-        },
-        
-        "boldItalic-right-mark": {
-            "color": "#00a6ce"
-        },
-        
-        "code": {
-            "font": "AmazonEmberMono-Regular",
-			"backgroundColor": "##f2f3f3",
-            "color": "#212f3e"
-        },
-        
-        "checked": {
-            "color": "#88929292",
-            "headIndent": 33,
-            "strikethroughStyle": 1
-        },
-        
-        "todo": {
-            "font": "noteplanstate",
-            "color": "#f8991c",
-            "headIndent": 33,
-            "size": 16
-        },
-        
-        "checked-todo-characters": {
-            "font": "noteplanstate",
-            "headIndent": 33,
-            "size": 16
-        },
-        
-        "special-char": {
-            "font": "AmazonEmberMono-Regular"
-        },
-        
-        "tabbed": {
-            "headIndent": 43
-        },
-        
-        "quote-mark": {
-            "color": "#00a6ce",
-            "font": "noteplanstate",
-            "headIndent": 33,
-            "size": 16
-        },
-        
-        "quote-content": {
-            "color": "#929292",
-            "type": "italic",
-            "headIndent": 33
-        },
-        
-        "link": {
-           
-        },
-                        
-        "schedule-to-date-link": {
-          
-        },
-        
-        "done-date": {
-            
-        },
-        
-        "schedule-from-date-link": {
-        
-        },
-
-        "note-title-link": {
-        
-        },
-        
-        "hashtag": {
-           
-        },
-        
-        "attag": {
-         
-        },
-        
-        "phonenumber": {
-       
-        },
-		"highlighted": {
-		"regex": "(::)([^:]{1,})(::)",
-		"matchPosition": 2,
-		"isRevealOnCursorRange": true,
-		"color":"ffffff",
-		"backgroundColor": "#00a6ce"
-		},
-		"highlighted-left-colon": {
-		"regex": "(::)([^:]{1,})(::)",
-		"matchPosition": 1,
-		"isMarkdownCharacter": true,
-		"isHiddenWithoutCursor": true,
-		"isRevealOnCursorRange": true,
-		"color": "#00a6ce"
-		},
-		"highlighted-right-colon": {
-		"regex": "(::)([^:]{1,})(::)",
-		"matchPosition": 3,
-		"isMarkdownCharacter": true,
-		"isHiddenWithoutCursor": true,
-		"isRevealOnCursorRange": true,
-		"color": "#00a6ce"
-		},
-		 "code-left-backtick": {
-            "color": "#00a6ce"
-        },
-        
-        "code-right-backtick": {
-            "color": "#00a6ce"
-        },
-            "strikethrough": {
-            "regex": "(~~)([^~]{1,})(~~)",
-            "matchPosition": 2,
-            "strikethroughStyle": 1,
-            "isRevealOnCursorRange": true
-        },
-
-        "strikethrough-left-tilde": {
-            "regex": "(~~)([^~]{1,})(~~)",
-            "matchPosition": 1,
-            "isMarkdownCharacter": true,
-            "isHiddenWithoutCursor": true,
-            "color": "#00a6ce",
-            "isRevealOnCursorRange": true
-        },
-
-        "strikethrough-right-tilde": {
-            "regex": "(~~)([^~]{1,})(~~)",
-            "matchPosition": 3,
-            "isMarkdownCharacter": true,
-            "color": "#00a6ce",
-            "isHiddenWithoutCursor": true,
-            "isRevealOnCursorRange": true
-        },
-            "codeblock": {
-            "regex": "(```)([^```]{1,})(```)",
-            "matchPosition": 2,
-            "font": "AmazonEmberMono-Regular",
-            "isRevealOnCursorRange": true
-        },
-
-        "codeblock-left-codeblock": {
-            "regex": "(```)([^```]{1,})(```)",
-            "matchPosition": 1,
-            "isMarkdownCharacter": true,
-            "isHiddenWithoutCursor": true,
-            "color": "#f8991c",
-            "isRevealOnCursorRange": true
-        },
-
-        "codeblock-right-codeblock": {
-            "regex": "(```)([^```]{1,})(```)",
-            "matchPosition": 3,
-            "isMarkdownCharacter": true,
-            "color": "#f8991c",
-            "isHiddenWithoutCursor": true,
-            "isRevealOnCursorRange": true
-        }
+    "title2": {
+      "color": "#212f3e",
+      "size": 24
+    },
+    "title3": {
+      "color": "#212f3e",
+      "size": 20
+    },
+    "title-mark1": {
+      "color": "#00a6ce",
+      "size": 28
+    },
+    "title-mark2": {
+      "color": "#00a6ce",
+      "size": 24
+    },
+    "title-mark3": {
+      "color": "#00a6ce",
+      "size": 20
+    },
+    "bold": {
+      "size": 16,
+      "color": "#00a6ce",
+      "font": "AmazonEmber-Bold"
+    },
+    "bold-left-mark": {
+      "color": "#00a6ce"
+    },
+    "bold-right-mark": {
+      "color": "#00a6ce"
+    },
+    "italic": {
+      "size": 16,
+      "color": "#00a6ce",
+      "font": "AmazonEmber-Italic"
+    },
+    "italic-left-mark": {
+      "color": "#00a6ce"
+    },
+    "italic-right-mark": {
+      "color": "#00a6ce"
+    },
+    "boldItalic": {
+      "size": 16,
+      "color": "#00a6ce",
+      "font": "AmazonEmber-BoldItalic"
+    },
+    "boldItalic-left-mark": {
+      "color": "#00a6ce"
+    },
+    "boldItalic-right-mark": {
+      "color": "#00a6ce"
+    },
+    "code": {
+      "font": "AmazonEmberMono-Regular",
+      "backgroundColor": "##f2f3f3",
+      "color": "#212f3e"
+    },
+    "checked": {
+      "color": "#88929292",
+      "headIndent": 33,
+      "strikethroughStyle": 1
+    },
+    "todo": {
+      "font": "noteplanstate",
+      "color": "#f8991c",
+      "headIndent": 33,
+      "size": 16
+    },
+    "checked-todo-characters": {
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 16
+    },
+    "special-char": {
+      "font": "AmazonEmberMono-Regular"
+    },
+    "tabbed": {
+      "headIndent": 43
+    },
+    "quote-mark": {
+      "color": "#00a6ce",
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 16
+    },
+    "quote-content": {
+      "color": "#929292",
+      "type": "italic",
+      "headIndent": 33
+    },
+    "link": {},
+    "schedule-to-date-link": {},
+    "done-date": {},
+    "schedule-from-date-link": {},
+    "note-title-link": {},
+    "hashtag": {},
+    "attag": {},
+    "phonenumber": {},
+    "highlighted": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 2,
+      "isRevealOnCursorRange": true,
+      "color": "ffffff",
+      "backgroundColor": "#00a6ce"
+    },
+    "highlighted-left-colon": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#00a6ce"
+    },
+    "highlighted-right-colon": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#00a6ce"
+    },
+    "code-left-backtick": {
+      "color": "#00a6ce"
+    },
+    "code-right-backtick": {
+      "color": "#00a6ce"
+    },
+    "strikethrough": {
+      "regex": "(~~)([^~]{1,})(~~)",
+      "matchPosition": 2,
+      "strikethroughStyle": 1,
+      "isRevealOnCursorRange": true
+    },
+    "strikethrough-left-tilde": {
+      "regex": "(~~)([^~]{1,})(~~)",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "color": "#00a6ce",
+      "isRevealOnCursorRange": true
+    },
+    "strikethrough-right-tilde": {
+      "regex": "(~~)([^~]{1,})(~~)",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "color": "#00a6ce",
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true
+    },
+    "codeblock": {
+      "regex": "(```)([^```]{1,})(```)",
+      "matchPosition": 2,
+      "font": "AmazonEmberMono-Regular",
+      "isRevealOnCursorRange": true
+    },
+    "codeblock-left-codeblock": {
+      "regex": "(```)([^```]{1,})(```)",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "color": "#f8991c",
+      "isRevealOnCursorRange": true
+    },
+    "codeblock-right-codeblock": {
+      "regex": "(```)([^```]{1,})(```)",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "color": "#f8991c",
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true
     }
+  }
 }
