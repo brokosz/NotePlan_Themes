@@ -103,6 +103,16 @@
         	"backgroundColor": "#16191f",
             "color": "#ffffff"
         },
+	    
+	"code-left-backtick": {
+            "color": "#44ffffff",
+            "backgroundColor": "#16191f"
+        },
+        
+        "code-right-backtick": {
+            "color": "#44ffffff",
+            "backgroundColor": "#16191f"
+        },
         
         "checked": {
             "color": "#55c0c0c0",
