@@ -1,0 +1,142 @@
+{
+  "name": "Soft Contrast Light",
+  "style": "Light",
+  "author": {
+    "name": "zgr",
+    "email": "zgrdocs@gmail.com"
+  },
+  "editor": {
+    "backgroundColor": "#EBEBEB",
+    "altBackgroundColor": "#F8F8F8",
+    "tintColor": "#D6665E",
+    "tintColor2": "5B8DE3",
+    "textColor": "#333333",
+    "toolbarBackgroundColor": "#D9D9D9",
+    "toolbarIconColor": "#414141",
+    "menuItemColor": "#414141",
+    "shouldOverwriteFont": false
+  },
+  "styles": {
+    "body": {
+      "font": "iAWriterQuattroS-Regular",
+      "size": 16,
+      "color": "#000000"
+    },
+    "title1": {
+      "font": "AvenirNextCondensed-DemiBold",
+      "color": "#000000",
+      "size": 28
+    },
+    "title2": {
+      "font": "AvenirNextCondensed-DemiBold",
+      "color": "#000000",
+      "size": 24
+    },
+    "title3": {
+      "font": "AvenirNextCondensed-DemiBold",
+      "color": "#000000",
+      "underlineStyle": 1,
+      "size": 20
+    },
+    "title-mark1": {
+      "color": "#ABABAB",
+      "size": 28,
+      "font": "iAWriterQuattroS-Regular"
+    },
+    "title-mark2": {
+      "color": "#ABABAB",
+      "size": 24,
+      "font": "iAWriterQuattroS-Regular"
+    },
+    "title-mark3": {
+      "color": "#ABABAB",
+      "size": 20,
+      "font": "iAWriterQuattroS-Regular"
+    },
+    "bold": {
+      "size": 16,
+      "font": "InputSans-Bold"
+    },
+    "bold-left-mark": {
+      "color": "#ABABAB"
+    },
+    "bold-right-mark": {
+      "color": "#ABABAB"
+    },
+    "italic": {
+      "size": 16,
+      "font": "iAWriterDuospace-Regular",
+      "underlineStyle": 1
+    },
+    "italic-left-mark": {
+      "color": "#ABABAB"
+    },
+    "italic-right-mark": {
+      "color": "#ABABAB"
+    },
+    "boldItalic": {
+      "font": "iAWriterQuattroV-BoldItalic"
+    },
+    "boldItalic-left-mark": {
+      "color": "#ABABAB"
+    },
+    "boldItalic-right-mark": {
+      "color": "#ABABAB"
+    },
+    "code": {
+      "font": "InputMono-Regular",
+      "color": "#009155",
+      "backgroundColor": "#daeae3",
+      "size": 14
+    },
+    "code-left-backtick": {
+      "color": "#414141"
+    },
+    "code-right-backtick": {
+      "color": "#414141"
+    },
+    "checked": {
+      "color": "#66000000",
+      "type": "italic",
+      "headIndent": 33
+    },
+    "todo": {
+      "font": "noteplanstate",
+      "color": "#5B8DE3",
+      "headIndent": 33,
+      "size": 16
+    },
+    "checked-todo-characters": {
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 16
+    },
+    "special-char": {
+      "font": "Menlo-Regular"
+    },
+    "tabbed": {
+      "headIndent": 43
+    },
+    "quote-mark": {
+      "color": "#d6665e",
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 16
+    },
+    "quote-content": {
+      "color": "#000000",
+      "type": "italic",
+      "font": "iAWriterDuospace-Regular",
+      "size": 16,
+      "headIndent": 33
+    },
+    "link": {},
+    "schedule-to-date-link": {},
+    "done-date": {},
+    "schedule-from-date-link": {},
+    "note-title-link": {},
+    "hashtag": {},
+    "attag": {},
+    "phonenumber": {}
+  }
+}
