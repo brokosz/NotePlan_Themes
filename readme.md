@@ -21,13 +21,13 @@ Made something beautiful? Think of a way to improve an existing theme? Feel free
 
 
 ## Available Themes
-Previews coming soon!
-
-* Freestraction Simplified Dark
-* Freestraction Simplified Light
-* Panda
-* Panda Dark
-* Soft_contrast_dark
-* Soft_contrast_light
-* Squid Ink
-* Squid Ink Light
+### Freestraction Simplified
+![](img/freestraction.png)
+![](img/freestractiondark.png)
+### Panda
+![](img/panda.png)
+![](img/pandadark.png)
+### Soft_contrast
+### Squid Ink
+![](img/squidinklight.png)
+![](img/squidink.png)
