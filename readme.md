@@ -27,7 +27,9 @@ Made something beautiful? Think of a way to improve an existing theme? Feel free
 ### Panda
 ![](img/panda.png)
 ![](img/pandadark.png)
-### Soft_contrast
+### Soft Contrast
+![](img/softcontrastlight.png)
+![](img/softcontrastdark.png)
 ### Squid Ink
 ![](img/squidinklight.png)
 ![](img/squidink.png)
