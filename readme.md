@@ -23,6 +23,8 @@ Made something beautiful? Think of a way to improve an existing theme? Feel free
 ## Available Themes
 ### Atom
 ![](img/atom.png)
+### Day One
+![](img/dayone.png)
 ### Freestraction Simplified
 ![](img/freestraction.png)
 ![](img/freestractiondark.png)
