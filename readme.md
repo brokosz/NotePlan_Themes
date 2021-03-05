@@ -24,6 +24,9 @@ Made something beautiful? Think of a way to improve an existing theme? Feel free
 ### Freestraction Simplified
 ![](img/freestraction.png)
 ![](img/freestractiondark.png)
+### Light/Dark NP
+![](img/lightnp.png)
+![](img/darknp.png)
 ### Panda
 ![](img/panda.png)
 ![](img/pandadark.png)
