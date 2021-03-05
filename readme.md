@@ -38,3 +38,6 @@ Made something beautiful? Think of a way to improve an existing theme? Feel free
 ### Squid Ink
 ![](img/squidinklight.png)
 ![](img/squidink.png)
+### Things
+![](img/things.png)
+
