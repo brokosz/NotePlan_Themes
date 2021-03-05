@@ -9,7 +9,7 @@
     "editor": {
         "backgroundColor": "#282C34",
         "altBackgroundColor": "#262A33",
-        "tintColor": "#9EC87C",
+        "tintColor": "#61AFFF",
         "tintColor2": "#ECCB84",
         "textColor":"#C7C6CC",
         "toolbarBackgroundColor": "#434551",
@@ -146,7 +146,7 @@
         },
         
         "quote-content": {
-            "color": "#C7C6CC",
+            "color": "#C678DD",
             "type": "italic",
             "headIndent": 33
         },
@@ -184,4 +184,5 @@
         }
     }
 }
+
 
