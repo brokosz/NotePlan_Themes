@@ -25,6 +25,7 @@ Made something beautiful? Think of a way to improve an existing theme? Feel free
 ![](img/atom.png)
 ### Day One
 ![](img/dayone.png)
+![](img/dayonedark.png)
 ### Freestraction Simplified
 ![](img/freestraction.png)
 ![](img/freestractiondark.png)
