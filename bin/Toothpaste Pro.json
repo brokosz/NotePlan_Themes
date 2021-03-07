@@ -1,0 +1,273 @@
+{
+  "name": "Toothpaste Pro",
+  "style": "Dark",
+  "author": {
+    "name": "Blake Dunkel",
+    "email": "blake.dunkel@hey.com"
+  },
+
+  "editor": {
+    "backgroundColor": "#222E33",
+    "altBackgroundColor": "#2B3940",
+    "tintColor": "#E9C062",
+    "tintColor2": "#73B3C0",
+    "textColor": "#DAE3E8",
+    "toolbarBackgroundColor": "#2B3940",
+    "toolbarIconColor": "#c5c5c0",
+    "menuItemColor": "#c5c5c0",
+    "shouldOverwriteFont": true
+  },
+
+  "styles": {
+    "body": {
+      "font": "AvenirNext-Regular",
+      "size": 16,
+      "color": "#DAE3E8"
+    },
+
+    "title1": {
+      "color": "#96CBFE",
+      "size": 28,
+      "font": "AvenirNext-DemiBold"
+    },
+
+    "title2": {
+      "color": "#96CBFE",
+      "size": 24,
+      "font": "AvenirNext-DemiBold"
+    },
+
+    "title3": {
+      "color": "#96CBFE",
+      "size": 20,
+      "font": "AvenirNext-DemiBold"
+    },
+
+    "title-mark1": {
+      "color": "#6696CBFE",
+      "size": 28,
+      "font": "AvenirNext-DemiBold"
+    },
+
+    "title-mark2": {
+      "color": "#6696CBFE",
+      "size": 24,
+      "font": "AvenirNext-DemiBold"
+    },
+
+    "title-mark3": {
+      "color": "#6696CBFE",
+      "size": 20,
+      "font": "AvenirNext-DemiBold"
+    },
+
+    "bold": {
+      "color": "#CC6666",
+      "font": "AvenirNext-Bold"
+    },
+
+    "bold-left-mark": {
+      "color": "#66CC6666"
+    },
+
+    "bold-right-mark": {
+      "color": "#66CC6666"
+    },
+
+    "italic": {
+      "color": "#96CBFE",
+      "font": "AvenirNext-Italic"
+    },
+
+    "italic-left-mark": {
+      "color": "#6696CBFE"
+    },
+
+    "italic-right-mark": {
+      "color": "#6696CBFE"
+    },
+
+    "boldItalic": {
+      "font": "AvenirNext-BoldItalic"
+    },
+
+    "boldItalic-left-mark": {
+      "color": "#66CC6666"
+    },
+
+    "boldItalic-right-mark": {
+      "color": "#66CC6666"
+    },
+
+    "code": {
+      "font": "Menlo-Regular",
+      "color": "#CC6666",
+      "size": 15
+    },
+
+    "code-left-backtick": {
+      "color": "#66CC6666"
+    },
+
+    "code-right-backtick": {
+      "color": "#66CC6666"
+    },
+
+    "checked": {
+      "headIndent": 33
+    },
+
+    "todo": {
+      "font": "noteplanstate",
+      "color": "#CC6666",
+      "headIndent": 33,
+      "size": 16
+    },
+
+    "checked-todo-characters": {
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 16
+    },
+
+    "checked-completed-mark": {
+      "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\] )",
+      "matchPosition": 0,
+      "color": "#9DC777",
+      "headIndent": 33
+    },
+
+    "checked-completed-content": {
+      "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\] )(.*)",
+      "matchPosition": 3,
+      "color": "#AAc5c5c0",
+      "headIndent": 33
+    },
+
+    "checked-scheduled": {
+      "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\>\\] )",
+      "matchPosition": 0,
+      "color": "#AAE9C062",
+      "headIndent": 33
+    },
+
+    "checked-canceled": {
+      "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
+      "matchPosition": 0,
+      "color": "#AAc5c5c0",
+      "headIndent": 33
+    },
+
+    "special-char": {
+      "font": "Menlo-Regular"
+    },
+
+    "tabbed": {
+      "headIndent": 43
+    },
+
+    "quote-mark": {
+      "color": "#9DC777",
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 16
+    },
+
+    "quote-content": {
+      "color": "#c5c5c0",
+      "type": "italic",
+      "headIndent": 33
+    },
+
+    "highlighted": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 2,
+      "isRevealOnCursorRange": true,
+      "backgroundColor": "#7745A2E5"
+    },
+
+    "highlighted-left-colon": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#AA45A2E5",
+      "backgroundColor": "#7745A2E5"
+    },
+
+    "highlighted-right-colon": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#AA45A2E5",
+      "backgroundColor": "#7745A2E5"
+    },
+
+    "flagged-1": {
+      "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)(\\!{1}\\h+.*))($|\\v)",
+      "matchPosition": 5,
+      "backgroundColor": "#22D0021B",
+      "headIndent": 33
+    },
+
+    "flagged-2": {
+      "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)(\\!{2}\\h+.*))($|\\v)",
+      "matchPosition": 5,
+      "backgroundColor": "#55D0021B",
+      "headIndent": 33
+    },
+
+    "flagged-3": {
+      "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)(\\!{3}\\h+.*))($|\\v)",
+      "matchPosition": 5,
+      "backgroundColor": "#AAD0021B",
+      "headIndent": 33
+    },
+
+    "strikethrough": {
+      "regex": "(~~)([^:]{1,})(~~)",
+      "matchPosition": 2,
+      "isRevealOnCursorRange": true,
+      "color": "#AAc5c5c0",
+      "strikethroughStyle": 1,
+      "strikethroughColor": "#AAc5c5c0"
+    },
+
+    "strikethrough-left-tildes": {
+      "regex": "(~~)([^:]{1,})(~~)",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#66c5c5c0"
+    },
+
+    "strikethrough-right-tildes": {
+      "regex": "(~~)([^:]{1,})(~~)",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#66c5c5c0"
+    },
+
+    "link": {},
+
+    "schedule-to-date-link": {},
+
+    "done-date": {},
+
+    "schedule-from-date-link": {},
+
+    "note-title-link": {},
+
+    "hashtag": {},
+
+    "attag": {},
+
+    "phonenumber": {}
+  }
+}
