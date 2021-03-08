@@ -8,35 +8,33 @@
 
     "editor": {
         "backgroundColor": "#1d1e25",
-        "altBackgroundColor": "#1d1e25",
+        "altBackgroundColor": "#2c2727",
         "tintColor": "#44c0ff",
         "tintColor2": "#44c0ff",
         "textColor": "#ffffff",
-        "toolbarBackgroundColor": "#3f3f3f",
+        "toolbarBackgroundColor": "#2c2727",
         "toolbarIconColor": "#44c0ff",
         "menuItemColor": "#44c0ff",
-        "shouldOverwriteFont": true
+        "shouldOverwriteFont": false
     },
 
     "styles": {
 
         "body": {
-            "paragraphSpacing": 8,
-            "paragraphSpacingBefore": 0,
-            "color": "#ffffff",
-            "font": ".AppleSystemUIFontRegular"
+            "font": "Lato-Regular",
+            "color": "#ffffff"
         },
 
         "title1": {
             "color": "#ffffff",
-            "size": 30,
-            "font": ".AppleSystemUIFontBold"
+            "size": 28,
+            "font": "Lato-Heavy"
         },
 
         "title2": {
             "color": "#ffffff",
             "size": 24,
-            "font": ".AppleSystemUIFontBold"
+            "font": "Lato-Heavy"
         },
 
         "title3": {
@@ -45,7 +43,7 @@
             "isRevealOnCursorRange": true,
             "color": "#ff6e6b",
             "size": 22,
-            "font": ".AppleSystemUIFontBold"
+            "font": "Lato-Bold"
         },
 
         "title4": {
@@ -54,7 +52,7 @@
             "isRevealOnCursorRange": true,
             "color": "#7f7f7f",
             "size": 18,
-            "font": ".AppleSystemUIFontBold"
+            "font": "Lato-Light"
         },
 
         "title5": {
@@ -63,9 +61,9 @@
             "isRevealOnCursorRange": true,
             "color": "#ffffff",
             "size": 16,
-            "underlineStyle": 3,
+            "underlineStyle": 4,
             "underlineColor": "#5f5f5f",
-            "font": ".AppleSystemUIFontBoldItalic"
+            "font": "Lato-BoldItalic"
         },
 
         "title6": {
@@ -75,17 +73,19 @@
             "backgroundColor": "#1c1c1c",
             "color": "#ffffff",
             "size": 16,
-            "font": ".AppleSystemUIFontHeavy"
+            "font": "Lato-Heavy"
         },
 
         "title-mark1": {
             "color": "#50ffffff",
-            "size": 16
+            "size": 28,
+            "paragraphSpacing": 32
         },
 
         "title-mark2": {
             "color": "#50ffffff",
-            "size": 16
+            "size": 24,
+            "paragraphSpacing": 32
         },
 
         "title-mark3": {
@@ -93,7 +93,8 @@
             "matchPosition": 1,
             "isRevealOnCursorRange": true,
             "color": "#50ff6e6b",
-            "size": 16
+            "size": 22,
+            "paragraphSpacing": 32
         },
 
         "title-mark4": {
@@ -102,8 +103,9 @@
             "isRevealOnCursorRange": true,
             "isHiddenWithoutCursor": true,
             "isMarkdownCharacter": true,
+            "size": 18,
             "color": "#70c2c3c4",
-            "size": 16
+            "paragraphSpacing": 24
         },
 
         "title-mark5": {
@@ -130,7 +132,8 @@
 
         "bold": {
             "color": "#ffffff",
-            "type": "bold"
+            "type": "bold",
+            "font": "Lato-Bold"
         },
 
         "bold-left-mark": {
@@ -142,7 +145,8 @@
         },
 
         "italic": {
-            "color": "#ffffff"
+            "color": "#ffffff",
+            "font": "Lato-Italic"
         },
 
         "italic-left-mark": {
@@ -154,7 +158,7 @@
         },
 
         "boldItalic": {
-            "font": ".AppleSystemUIFontBoldItalic"
+            "font": "Lato-BoldItalic"
         },
 
         "boldItalic-left-mark": {
@@ -166,7 +170,7 @@
         },
 
         "code": {
-            "font": "Menlo-Bold",
+            "font": "Menlo-Regular",
             "size": 16,
             "backgroundColor": "#333b40"
         },
@@ -190,7 +194,18 @@
             "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
             "matchPosition": 0,
             "color": "#7f7f7f",
-            "headIndent": 33,
+            "headIndent": 33
+        },
+
+        "done-strikethrough": {
+            "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\] )(.*)",
+            "matchPosition": 3,
+            "strikethroughStyle": 1
+        },
+
+        "canceled-strikethrough": {
+            "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[-\\] )(.*)",
+            "matchPosition": 3,
             "strikethroughStyle": 1
         },
 
@@ -217,13 +232,15 @@
         "list-number": {
             "regex": "(^|\\v|\\t)([0-9]+\\.)",
             "matchPosition": 2,
-            "color": "#cacacf"
+            "color": "#cacacf",
+            "headIndent": 33
         },
 
         "list-bullet": {
-            "regex": "^((\\-|\\*)+)(?!\\s\\[(\\s|x|\\>|\\-)\\])",
+            "regex": "^((\\-|\\*)\\s+)(?!\\[(\\s|x|\\>|\\-)\\])",
             "matchPosition": 1,
-            "color": "#44c0ff"
+            "color": "#44c0ff",
+            "headIndent": 33
         },
 
         "special-char": {
@@ -244,13 +261,14 @@
         "quote-content": {
             "color": "#c7c7cc",
             "type": "italic",
+            "font": "Lato-Italic",
             "headIndent": 33
         },
 
         "quote-citation": {
             "regex": "(~{1,})(\\s.+)",
             "matchPosition": 2,
-            "font": ".AppleSystemUIFontBold"
+            "font": "Lato-Bold"
         },
 
         "link": {},
@@ -313,24 +331,24 @@
         },
 
         "flagged-1": {
-            "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{1}\\h+.*)($|\\v)",
-            "matchPosition": 2,
+            "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)(\\!{1}\\h+.*))($|\\v)",
+            "matchPosition": 5,
             "isRevealOnCursorRange": true,
             "backgroundColor": "#40e74c3d",
             "headIndent": 33
         },
 
         "flagged-2": {
-            "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{2}\\h+.*)($|\\v)",
-            "matchPosition": 2,
+            "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)(\\!{2}\\h+.*))($|\\v)",
+            "matchPosition": 5,
             "isRevealOnCursorRange": true,
             "backgroundColor": "#60e74c3d",
             "headIndent": 33
         },
 
         "flagged-3": {
-            "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{3}\\h+.*)($|\\v)",
-            "matchPosition": 2,
+            "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)(\\!{3}\\h+.*))($|\\v)",
+            "matchPosition": 5,
             "isRevealOnCursorRange": true,
             "backgroundColor": "#aae74c3d",
             "headIndent": 33
@@ -339,7 +357,6 @@
         "flagged-check-character": {
             "regex": "^((\\-|\\*)\\s\\[\\s\\]\\s)(?=!+)",
             "matchPosition": 1,
-            "backgroundColor": "#1d1e25",
             "color": "#e74c3d",
             "headIndent": 33
         },
