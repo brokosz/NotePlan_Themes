@@ -12,8 +12,9 @@ To install a new theme, simply download the .json file, open NotePlan 3 > Prefer
 You can add additional highlighting, functionality, and customize other theme components with regex. More information about supported NotePlan 3 styles and detailed documentation can be found [here](http://noteplan.co/createcustomthemes).
 
 ### Install missing fonts
-- [Squid Ink](https://developer.amazon.com/en-US/alexa/branding/echo-guidelines/identity-guidelines/typography)
-- [Soft_contrast iA font](https://github.com/iaolo/iA-Fonts), [Soft_contrast Input font](https://input.djr.com/download/)
+- [Amazon Ember for Squid Ink](https://developer.amazon.com/en-US/alexa/branding/echo-guidelines/identity-guidelines/typography)
+- [iA font for Soft Contrast](https://github.com/iaolo/iA-Fonts), [Input font for Soft Contrast](https://input.djr.com/download/)
+- [Lato for Day One](https://www.1001fonts.com/lato-font.html)
 
 ## Contributing
 
