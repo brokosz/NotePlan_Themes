@@ -1,0 +1,252 @@
+{
+  "name": "The Thymes",
+  "style": "Light",
+  "author": {
+    "name": "Blake Dunkel",
+    "email": "blake.dunkel@hey.com"
+  },
+
+  "editor": {
+    "backgroundColor": "#F0F0F0",
+    "altBackgroundColor": "#F8F8F8",
+    "tintColor": "#326891",
+    "tintColor2": "#DD3E3B",
+    "textColor": "#000000",
+    "toolbarBackgroundColor": "#D9D9D9",
+    "toolbarIconColor": "#414141",
+    "menuItemColor": "#414141",
+    "shouldOverwriteFont": false
+  },
+
+  "styles": {
+    "body": {
+      "font": "Helvetica",
+      "size": 16,
+      "color": "#000000"
+    },
+
+    "title1": {
+      "font": "Georgia",
+      "color": "#000000",
+      "size": 28
+    },
+
+    "title2": {
+      "font": "Georgia",
+      "color": "#000000",
+      "size": 24
+    },
+
+    "title3": {
+      "font": "Georgia",
+      "color": "#000000",
+      "size": 20
+    },
+
+    "title-mark1": {
+      "color": "#45000000",
+      "size": 28,
+      "font": "AvenirNext-DemiBold"
+    },
+
+    "title-mark2": {
+      "color": "#45000000",
+      "size": 24,
+      "font": "AvenirNext-DemiBold"
+    },
+
+    "title-mark3": {
+      "color": "#45000000",
+      "size": 20,
+      "font": "AvenirNext-DemiBold"
+    },
+
+    "bold": {
+      "font": "Helvetica-Bold"
+    },
+
+    "bold-left-mark": {
+      "color": "#45000000"
+    },
+
+    "bold-right-mark": {
+      "color": "#45000000"
+    },
+
+    "italic": {
+      "font": "Helvetica-Oblique"
+    },
+
+    "italic-left-mark": {
+      "color": "#45000000"
+    },
+
+    "italic-right-mark": {
+      "color": "#45000000"
+    },
+
+    "boldItalic": {
+      "font": "Helvetica-BoldOblique"
+    },
+
+    "boldItalic-left-mark": {
+      "color": "#45000000"
+    },
+
+    "boldItalic-right-mark": {
+      "color": "#45000000"
+    },
+
+    "code": {
+      "font": "Menlo-Regular",
+      "color": "#d0021b",
+      "size": 15
+    },
+
+    "code-left-backtick": {
+      "color": "#66d0021b"
+    },
+
+    "code-right-backtick": {
+      "color": "#66d0021b"
+    },
+
+    "checked": {
+      "headIndent": 33
+    },
+
+    "todo": {
+      "font": "noteplanstate",
+      "color": "#d0021b",
+      "headIndent": 33,
+      "size": 16
+    },
+
+    "checked-todo-characters": {
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 16
+    },
+
+    "checked-completed-mark": {
+      "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\] )",
+      "matchPosition": 0,
+      "color": "#66d0021b",
+      "headIndent": 33
+    },
+
+    "checked-completed-content": {
+      "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\] )(.*)",
+      "matchPosition": 3,
+      "color": "#000000",
+      "strikethroughStyle": 1,
+      "strikethroughColor": "#AA000000",
+      "headIndent": 33
+    },
+
+    "checked-scheduled": {
+      "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\&gt;\\] )",
+      "matchPosition": 0,
+      "color": "#AA326891",
+      "headIndent": 33
+    },
+
+    "checked-canceled": {
+      "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
+      "matchPosition": 0,
+      "color": "#a19d9d",
+      "headIndent": 33
+    },
+
+    "special-char": {
+      "font": "Menlo-Regular"
+    },
+
+    "tabbed": {
+      "headIndent": 43
+    },
+
+    "quote-mark": {
+      "color": "#66d0021b",
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 16
+    },
+
+    "quote-content": {
+      "color": "#555555",
+      "headIndent": 33,
+      "font": "Helvetica-Light"
+    },
+
+    "highlighted": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 2,
+      "isRevealOnCursorRange": true,
+      "backgroundColor": "#22d0021b"
+    },
+
+    "highlighted-left-colon": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#66d0021b",
+      "backgroundColor": "#22d0021b"
+    },
+
+    "highlighted-right-colon": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#66d0021b",
+      "backgroundColor": "#22d0021b"
+    },
+
+    "strikethrough": {
+      "regex": "(~~)([^:]{1,})(~~)",
+      "matchPosition": 2,
+      "isRevealOnCursorRange": true,
+      "color": "#000000",
+      "strikethroughStyle": 1,
+      "strikethroughColor": "#AA000000"
+    },
+
+    "strikethrough-left-tildes": {
+      "regex": "(~~)([^:]{1,})(~~)",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#45000000"
+    },
+
+    "strikethrough-right-tildes": {
+      "regex": "(~~)([^:]{1,})(~~)",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#45000000"
+    },
+
+    "link": {},
+
+    "schedule-to-date-link": {},
+
+    "done-date": {},
+
+    "schedule-from-date-link": {},
+
+    "note-title-link": {},
+
+    "hashtag": {},
+
+    "attag": {},
+
+    "phonenumber": {}
+  }
+}

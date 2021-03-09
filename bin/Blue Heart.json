@@ -1,0 +1,246 @@
+{
+    "name": "Blue Heart",
+    "style": "Light",
+    "author": {
+        "name": "dntme17",
+        "email": "dntme17@protonmail.com"
+    },
+
+    "editor": {
+        "backgroundColor": "#fafafc",
+        "altBackgroundColor": "#f9fafb", 
+        "tintColor": "#346db7",
+        "tintColor2": "#febf45",
+        "textColor":"#121417",
+        "toolbarBackgroundColor": "#f7fbff",
+        "toolbarIconColor": "#222E33",
+        "menuItemColor": "#222E33",
+        "shouldOverwriteFont": true
+    },
+
+    "styles": {
+
+        "body": {
+            "font": "AvenirNext-Regular",
+            "size": 16,
+            "color": "#121417"
+        },
+
+        "title1": {
+            "color": "#25282c",
+            "size": 28,
+        },
+
+        "title2": {
+            "color": "#25282c",
+            "size": 24
+        },
+
+        "title3": {
+            "regex": "^\\h*(### )(.*)",
+            "color": "#25282c",
+            "size": 20,
+        },
+
+        "title4": {
+            "regex": "^\\h*(####+ )(.*)",
+            "matchPosition": 2,
+            "color": "#B425282c",
+            "size": 17,
+            "isRevealOnCursorRange": true,
+        },
+
+        "title-mark1-custom": {
+            "regex": "^\\h*(# )(.*)",
+            "matchPosition": 1,
+            "color": "#3A000000",
+            "size": 28,
+            "font": "AvenirNext-DemiBold",
+        },
+
+        "title-mark2-custom": {
+            "regex": "^\\h*(## )(.*)",
+            "matchPosition": 1,
+            "color": "#3A000000",
+            "size": 24,
+            "font": "AvenirNext-DemiBold"
+        },
+
+        "title-mark3-custom": {
+            "regex": "^\\h*(### )(.*)",
+            "matchPosition": 1,
+            "color": "#3A000000",
+            "size": 20,
+            "font": "AvenirNext-DemiBold",
+            "isHiddenWithoutCursor": false,
+            "isRevealOnCursorRange": false,
+        },
+
+        "title-mark4-custom": {
+            "regex": "^\\h*(####+ )(.*)",
+            "matchPosition": 1,
+            "color": "#3A000000",
+            "size": 17,
+            "font": "AvenirNext-DemiBold",
+        },
+
+        "bold": {
+            "type": "bold",            
+        },
+
+        "bold-left-mark-custom": {
+            "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))((\\*|_)\\3)(?=\\S)(.*?\\S)(\\3\\3)(?!\\2)(?=[\\W_]|$)",
+            "matchPosition": 2,
+            "color": "#3A000000",
+        },
+
+        "bold-right-mark-custom": {
+            "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))(\\*|_)\\2(?=\\S)(.*?\\S)(\\2\\2)(?!\\2)(?=[\\W_]|$)",
+            "matchPosition": 4,
+            "color": "#3A000000",
+        },
+
+        "italic": {
+            "type": "italic"
+        },
+
+        "italic-left-mark": {
+            "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))(\\*|_)(?=\\S)((?:(?!\\2).)*?\\S)(\\2)(?!\\2)(?=[\\W_]|$)",
+            "matchPosition": 2,
+            "color": "#3A000000",
+        },
+
+        "italic-right-mark": {
+            "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))(\\*|_)(?=\\S)((?:(?!\\2).)*?\\S)(\\2)(?!\\2)(?=[\\W_]|$)",
+            "matchPosition": 4,
+            "color": "#3A000000",
+        },
+
+        "boldItalic": {
+            "type": "bolditalic"
+        },
+
+        "boldItalic-left-mark": {
+            "color": "#3A000000",
+        },
+
+        "boldItalic-right-mark": {
+            "color": "#3A000000",
+        },
+
+        "code": {
+            "font": "Menlo-Regular",
+            "color": "#f89200",
+            "backgroundColor": "#f7f7f7",
+            "size": 15
+        },
+
+        "code-left-backtick-custom": {
+            "regex": "(`)([^`]{1,})(`)",
+            "matchPosition": 1,
+            "type": "bold",
+            "color": "#660091f8",
+            "font": "Menlo-Regular",
+        },
+
+        "code-right-backtick-custom": {
+            "regex": "(`)([^`]{1,})(`)",
+            "matchPosition": 3,
+            "type": "bold",
+            "color": "#660091f8",
+            "font": "Menlo-Regular",
+        },
+
+        "checked": {
+                "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\] )(.*)",
+                "matchPosition": 0,
+                "color": "#7583868b",
+                "headIndent": 33        
+            },
+
+            "checked-canceled": {
+                "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
+                "matchPosition": 0,
+                "color": "#c0c3c6",
+                "headIndent": 33,
+                "strikethroughStyle": 1
+            },
+
+            "checked-scheduled": {
+                "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\&gt;\\] )(.*)",
+                "matchPosition": 0,
+                "color": "#501379e1",
+                "headIndent": 33
+            },
+
+        "todo": {
+            "font": "noteplanstate",
+            "color": "#febf45",
+            "headIndent": 33,
+            "size": 16
+        },
+
+        "checked-todo-characters": {
+            "font": "noteplanstate",
+            "headIndent": 33,
+            "size": 16
+        },
+
+        "special-char": {
+            "font": "Menlo-Regular"
+        },
+
+        "tabbed": {
+            "headIndent": 43
+        },
+
+        "quote-mark": {
+            "color": "#f89200",
+            "font": "noteplanstate",
+            "headIndent": 33,
+            "size": 16
+        },
+
+        "quote-content": {
+            "color": "#333333",
+            "type": "italic",
+            "headIndent": 33
+        },
+
+        "link": {},
+
+        "schedule-to-date-link": {},
+
+        "schedule-from-date-link": {},
+
+        "done-date": {},
+
+        "note-title-link": {},
+
+        "hashtag": {},
+
+        "attag": {},
+
+        "phonenumber": {},
+
+        "highlighted": {
+            "regex": "(::)([^:]{1,})(::)",
+            "matchPosition": 0,
+            "backgroundColor": "#caff94"
+        },
+
+        "strikethrough": {
+            "regex": "(~~)([^:]{1,})(~~)",
+            "matchPosition": 2,
+            "strikethroughStyle": 1,
+            "strikethroughColor": "#7f7f7f",
+            "color": "#7f7f7f",
+        },
+
+        "hot": {
+            "regex": "(^|\\v)\\h*(\\*|-)\\h*\\[ \\]\\h+(.*?#hot.*)($|\\v)",
+            "matchPosition": 3,
+            "backgroundColor": "#eafecc66",
+        },
+    }
+}

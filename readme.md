@@ -24,12 +24,19 @@ Made something beautiful? Think of a way to improve an existing theme? Feel free
 ## Available Themes
 ### Atom
 ![](img/atom.png)
+### Blue Heart
+![](img/blueheart.png)
+### Chalk and Coal
+![](img/chalkandcoal.png)
 ### Day One
 ![](img/dayone.png)
 ![](img/dayonedark.png)
 ### Freestraction Simplified
 ![](img/freestraction.png)
 ![](img/freestractiondark.png)
+### Gryffindor
+![](img/gryffindormacos.png)
+![](img/gryffindorios.png)
 ### Light/Dark NP
 ![](img/lightnp.png)
 ![](img/darknp.png)
@@ -42,6 +49,8 @@ Made something beautiful? Think of a way to improve an existing theme? Feel free
 ### Squid Ink
 ![](img/squidinklight.png)
 ![](img/squidink.png)
+### The Thymes
+![](img/thethymes.png)
 ### Things
 ![](img/things.png)
 ### Toothpaste Pro
