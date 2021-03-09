@@ -1,0 +1,210 @@
+{
+	"name": "rB One",
+	"style": "Quattro Light",
+	"author": {
+		"name": "Rhubarb",
+		"email": ""
+	},
+	"editor": {
+		"backgroundColor": "#FFFFFF",
+		"altBackgroundColor": "#F8F8F8",
+		"tintColor": "#C0C0C0",
+		"tintColor2": "#C0C0C0",
+		"textColor": "#000000",
+		"toolbarBackgroundColor": "#FFFFFF",
+		"toolbarIconColor": "#000000",
+		"menuItemColor": "#000000",
+		"shouldOverwriteFont": false
+	},
+	"styles": {
+		"body": {
+			"font": "iAWriterQuattroS-Regular",
+			"size": 16,
+			"color": "#000000"
+		},
+		"title1": {
+			"color": "#000000",
+			"size": 16,
+			"font": "iAWriterQuattroS-Bold"
+		},
+		"title2": {
+			"color": "#000000",
+			"size": 16,
+			"font": "iAWriterQuattroS-Bold"
+		},
+		"title3": {
+			"color": "#000000",
+			"size": 16,
+			"font": "iAWriterQuattroS-Bold"
+		},
+		"title-mark1": {
+			"paragraphSpacingBefore": 20,
+			"color": "#000000",
+			"size": 16,
+			"font": "iAWriterQuattroS-Bold"
+		},
+		"title-mark2": {
+			"paragraphSpacingBefore": 15,
+			"color": "#000000",
+			"size": 16,
+			"font": "iAWriterQuattroS-Bold"
+		},
+		"title-mark3": {
+			"paragraphSpacingBefore": 10,
+			"color": "#000000",
+			"size": 16,
+			"font": "iAWriterQuattroS-Bold"
+		},
+		"bold": {
+			"font": "iAWriterQuattroS-Bold"
+		},
+		"bold-left-mark": {
+		},
+		"bold-right-mark": {
+		},
+		"italic": {
+			"font": "iAWriterQuattroS-Italic"
+		},
+		"italic-left-mark": {
+		},
+		"italic-right-mark": {
+		},
+		"boldItalic": {
+			"font": "iAWriterQuattroS-BoldItalic"
+		},
+		"boldItalic-left-mark": {
+		},
+		"boldItalic-right-mark": {
+		},
+		"code": {
+			"font": "iAWriterQuattroS-Regular",
+			"backgroundColor": "#F8F8F8",
+			"size": 16
+		},
+		"code-left-backtick": {
+			"backgroundColor": "#F8F8F8"
+		},
+		"code-right-backtick": {
+			"backgroundColor": "#F8F8F8"
+		},
+		"checked": {
+			"color": "#C0C0C0",
+			"headIndent": 33,
+			"strikethroughStyle": 1
+		},
+		"todo": {
+			"font": "iAWriterQuattroS-Regular",
+			"color": "#000000",
+			"headIndent": 33,
+			"size": 15
+		},
+		"checked-todo-characters": {
+			"font": "iAWriterQuattroS-Regular",
+			"headIndent": 33,
+			"size": 15
+		},
+		"special-char": {
+			"font": "iAWriterQuattroS-Regular"
+		},
+		"tabbed": {
+			"headIndent": 43
+		},
+		"quote-mark": {
+			"color": "#C0C0C0",
+			"font": "iAWriterQuattroS-Regular",
+			"headIndent": 33
+		},
+		"quote-content": {
+			"headIndent": 33
+		},
+		"link": {
+		},
+		"schedule-to-date-link": {
+		},
+		"done-date": {
+		},
+		"schedule-from-date-link": {
+		},
+		"note-title-link": {
+		},
+		"hashtag": {
+			"color": "#000000",
+			"backgroundColor": "#F8F8F8"
+		},
+		"attag": {
+			"color": "#000000",
+			"backgroundColor": "#F8F8F8"
+		},
+		"phonenumber": {
+		},
+		"highlighted-colon-left": {
+			"regex": "(::)([^:]{1,})(::)",
+			"matchPosition": 1,
+			"isMarkdownCharacter": true,
+			"isHiddenWithoutCursor": true,
+			"isRevealOnCursorRange": true,
+			"backgroundColor": "#fde666"
+		},
+		"highlighted-colon-text": {
+			"regex": "(::)([^:]{1,})(::)",
+			"matchPosition": 2,
+			"isRevealOnCursorRange": true,
+			"backgroundColor": "#fde666"
+		},
+		"highlighted-colon-right": {
+			"regex": "(::)([^:]{1,})(::)",
+			"matchPosition": 3,
+			"isMarkdownCharacter": true,
+			"isHiddenWithoutCursor": true,
+			"isRevealOnCursorRange": true,
+			"backgroundColor": "#fde666"
+		},
+		"highlighted-equals-left": {
+			"regex": "(==)([^=]{1,})(==)",
+			"matchPosition": 1,
+			"isMarkdownCharacter": true,
+			"isHiddenWithoutCursor": true,
+			"isRevealOnCursorRange": true,
+			"backgroundColor": "#fde666"
+		},
+		"highlighted-equals-text": {
+			"regex": "(==)([^=]{1,})(==)",
+			"matchPosition": 2,
+			"isRevealOnCursorRange": true,
+			"backgroundColor": "#fde666"
+		},
+		"highlighted-equals-right": {
+			"regex": "(==)([^:]{1,})(==)",
+			"matchPosition": 3,
+			"isMarkdownCharacter": true,
+			"isHiddenWithoutCursor": true,
+			"isRevealOnCursorRange": true,
+			"backgroundColor": "#fde666"
+		},
+		"strikethrough": {
+			"regex": "(~~)([^~]{1,})(~~)",
+			"matchPosition": 2,
+			"color": "#808080",
+			"isRevealOnCursorRange": true,
+			"strikethroughStyle": 1
+		},
+		"strikethrough-left": {
+			"regex": "(~~)([^~]{1,})(~~)",
+			"matchPosition": 1,
+			"color": "#808080",
+			"isMarkdownCharacter": true,
+			"isHiddenWithoutCursor": true,
+			"isRevealOnCursorRange": true,
+			"strikethroughStyle": 1
+		},
+		"strikethrough-right": {
+			"regex": "(~~)([^~]{1,})(~~)",
+			"matchPosition": 3,
+			"color": "#808080",
+			"isMarkdownCharacter": true,
+			"isHiddenWithoutCursor": true,
+			"isRevealOnCursorRange": true,
+			"strikethroughStyle": 1
+		}
+	}
+}
