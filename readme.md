@@ -24,8 +24,6 @@ Made something beautiful? Think of a way to improve an existing theme? Feel free
 ## Available Themes
 ### Atom
 ![](img/atom.png)
-### Blue Heart
-![](img/blueheart.png)
 ### Chalk and Coal
 ![](img/chalkandcoal.png)
 ### Day One
@@ -37,6 +35,9 @@ Made something beautiful? Think of a way to improve an existing theme? Feel free
 ### Gryffindor
 ![](img/gryffindormacos.png)
 ![](img/gryffindorios.png)
+### Heart
+![](img/blueheart.png)
+![](img/purpleheart.png)
 ### Light/Dark NP
 ![](img/lightnp.png)
 ![](img/darknp.png)
