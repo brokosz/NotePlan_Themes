@@ -52,8 +52,8 @@ Made something beautiful? Think of a way to improve an existing theme? Feel free
 ![](img/rbone.png)
 ### Scripture
 ![](img/scripture.png)
-![](img/scripturedark.png)
-[How to configure Scripture](https://github.com/robgrace/NPTheme-Scripture#basic-use)
+![](img/scripturedark.png)  
+[How to configure Scripture](https://github.com/robgrace/NPTheme-Scripture#basic-use)  
 ### Soft Blue
 ![](img/softblue.png)
 ### Soft Contrast
