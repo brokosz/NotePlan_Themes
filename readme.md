@@ -31,6 +31,8 @@ Made something beautiful? Think of a way to improve an existing theme? Feel free
 ### Day One
 ![](img/dayone.png)
 ![](img/dayonedark.png)
+### Dark Purple
+![](img/darkpurple.png)
 ### Freestraction Simplified
 ![](img/freestraction.png)
 ![](img/freestractiondark.png)
@@ -48,6 +50,12 @@ Made something beautiful? Think of a way to improve an existing theme? Feel free
 ![](img/pandadark.png)
 ### rB One
 ![](img/rbone.png)
+### Scripture
+![](img/scripture.png)
+![](img/scripturedark.png)
+[How to configure Scripture](https://github.com/robgrace/NPTheme-Scripture#basic-use)
+### Soft Blue
+![](img/softblue.png)
 ### Soft Contrast
 ![](img/softcontrastlight.png)
 ![](img/softcontrastdark.png)

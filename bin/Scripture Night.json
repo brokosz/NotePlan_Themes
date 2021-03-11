@@ -1,0 +1,209 @@
+{
+    "name": "Scripture Night",
+    "style": "Dark",
+    "author": {
+        "name": "Robert Grace",
+        "email": "robert.grace@gmail.com"
+    },
+    
+    "editor": {
+        "backgroundColor": "#402506",
+        "altBackgroundColor": "#3A2001",
+        "tintColor": "#C87cc8",
+        "tintColor2": "#CB84CB",
+        "textColor":"#FFD700",
+        "toolbarBackgroundColor": "#563A1B",
+        "toolbarIconColor": "#CCCCAA",
+        "menuItemColor": "#CCCCAA",
+        "shouldOverwriteFont": false
+    },
+    
+    "styles": {
+        
+        "body": {
+            "font": "Palatino-Roman",
+            "size": 19,
+            "color": "#DDCCAA"
+        },
+        
+        "title1": {
+            "color": "#FFD700",
+            "size": 28,
+            "font": "Palatino-Bold"
+        },
+        
+        "title2": {
+            "color": "#FFD700",
+            "size": 26,
+            "font": "Palatino-Bold"
+        },
+        
+        "title3": {
+            "color": "#FFD700",
+            "size": 24,
+            "font": "Palatino-Bold"
+        },
+        
+        "title-mark1": {
+            "color": "#95EB7381",
+            "size": 28,
+            "font": "AvenirNext-DemiBold"
+        },
+        
+        "title-mark2": {
+           "color": "#95EB7381",
+           "size": 24,
+           "font": "AvenirNext-DemiBold"
+        },
+        
+        "title-mark3": {
+           "color": "#95EB7381",
+           "size": 20,
+           "font": "AvenirNext-DemiBold"
+        },
+        
+        "bold": {
+            "font": "Palatino-Bold",
+            "color": "FF0000"
+        },
+        
+        "bold-left-mark": {
+            "color": "#45C7C6CC"
+        },
+        
+        "bold-right-mark": {
+            "color": "#45C7C6CC"
+        },
+        
+        "italic": {
+            "font": "Palatino-Italic"
+        },
+        
+        "italic-left-mark": {
+            "color": "#45C7C6CC"
+        },
+        
+        "italic-right-mark": {
+            "color": "#45C7C6CC"
+        },
+        
+        "boldItalic": {
+            "font": "Palatino-BoldItalic"
+        },
+        
+        "boldItalic-left-mark": {
+            "color": "#45C7C6CC"
+        },
+        
+        "boldItalic-right-mark": {
+            "color": "#45C7C6CC"
+        },
+        
+        "code": {
+            "font": "Menlo-Regular",
+            "color": "#ECCB84",
+            "size": 15
+        },
+    
+        "code-left-backtick": {
+            "color": "#66ECCB84"
+        },
+        
+        "code-right-backtick": {
+            "color": "#66ECCB84"
+        },
+        
+        "checked": {
+            "color": "#66C7C6CC",
+            "headIndent": 33
+        },
+        
+        "todo": {
+            "font": "noteplanstate",
+            "color": "#9EC87C",
+            "headIndent": 33,
+            "size": 16
+        },
+        
+        "checked-todo-characters": {
+            "font": "noteplanstate",
+            "headIndent": 33,
+            "size": 16
+        },
+        
+        "special-char": {
+            "font": "Menlo-Regular"
+        },
+        
+        "tabbed": {
+            "headIndent": 43
+        },
+        
+        "quote-mark": {
+            "color": "#80ECCB84",
+            "font": "noteplanstate",
+            "headIndent": 33,
+            "size": 16
+        },
+        
+        "quote-content": {
+            "color": "#CCCCC6",
+            "type": "italic",
+            "headIndent": 33
+        },
+        
+        "online-verse-ref-link":  {
+            "regex": "(\\[([1-3]?[A-Za-z]+)\\s*([0-9]{1,3})(:[0-9]{1,3}(\\-[0-9]{1,3}(:[0-9]{1,3})?)?)?\\])",
+            "matchPosition": 1,
+            "urlPosition": 1,
+            "type": "link",
+            "backgroundColor":"#563A1B",
+            "font": "AvenirNext-Bold",
+            "prefix": "https://www.biblegateway.com/passage/?search="
+        },   
+  
+        "verse-ref-link":  {
+            "regex": "(\\s|^|\\()(([1-3]?[A-Za-z]+)\\s+([0-9]{1,3}):[0-9]{1,3}(\\-[0-9]{1,3}(:[0-9]{1,3})?)?)",
+            "matchPosition": 2,
+            "urlPosition": 2,
+            "type": "link",
+            "underlineStyle": 1,
+            "backgroundColor":"#563A1B",
+            "font": "AvenirNext-Bold",
+            "prefix": "olivetree://bible/"
+        },           
+        
+        "link": {
+           
+        },
+                        
+        "schedule-to-date-link": {
+          
+        },
+        
+        "done-date": {
+            
+        },
+        
+        "schedule-from-date-link": {
+        
+        },
+
+        "note-title-link": {
+        
+        },
+        
+        "hashtag": {
+           
+        },
+        
+        "attag": {
+         
+        },
+        
+        "phonenumber": {
+       
+        }
+    }
+}
+
