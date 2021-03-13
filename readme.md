@@ -22,8 +22,7 @@ You can add additional highlighting, functionality, and customize other theme co
 
 ## Contributing
 
-Made something beautiful? Think of a way to improve an existing theme? Feel free to open a pull request or a new issue on GitHub!
-
+Please read [contributing.md](contributing.md) for instructions on how to submit themes or changes to existing themes. 
 
 ## Available Themes
 ### Atom
