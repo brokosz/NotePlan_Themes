@@ -19,14 +19,14 @@
     },
     
     "styles": {      
-    "wikiword-link": {
-        "regex": "(?<!# )([A-Z]\\w+[A-Z]\\w+)",
-        "matchPosition": 1,
-        "urlPosition": 1,
-        "type": "noteLink",
-        "prefix": "noteplan://x-callback-url/openNote?noteTitle=",
-    },
-        
+        "wikiword-link": {
+            "regex": "(?<!# )([A-Z]\\w+[A-Z]\\w+)",
+            "matchPosition": 1,
+            "urlPosition": 1,
+            "type": "noteLink",
+            "prefix": "noteplan://x-callback-url/openNote?noteTitle=",
+        },
+            
         "body": {
             "font": "AvenirNext-Regular",
             "size": 16,
