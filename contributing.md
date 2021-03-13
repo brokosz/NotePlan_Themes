@@ -33,7 +33,8 @@ To add a theme to this repository:
 ## Base Theme Name (not each variant)
 ![](/img/themename.png)
 ```
-
+	7. Submit your PR with comments on what you added or changed. 
+	
 # Conduct
 
 We are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, disability, ethnicity, religion, or similar personal characteristic.
