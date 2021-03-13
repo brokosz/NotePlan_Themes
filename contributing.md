@@ -29,10 +29,10 @@ To add a theme to this repository:
 	5. Resize the preview to be `505px` wide and maintain aspect ratio to get the automatic height. 
 	6. Name your new preview `<themename>.png` and add to the `img` folder. 
 * Update the [readme.md](readme.md) at the root of this repo with the addition of your theme to the preview list. Use the following format:
-```
-## Base Theme Name (not each variant)
-![](/img/themename.png)
-```
+	```
+	## Base Theme Name (not each variant)
+	![](/img/themename.png)
+	```
 	7. Submit your PR with comments on what you added or changed. 
 	
 # Conduct
