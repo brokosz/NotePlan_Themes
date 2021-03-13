@@ -1,0 +1,211 @@
+{
+    "name": "Nord",
+    "style": "Dark",
+    "author": {
+        "name": "dr_meeshelle",
+        "email": "hello@noteplan.co"
+    },
+    
+    "editor": {
+        "backgroundColor": "#2e3440",
+        "altBackgroundColor": "#3b4252",
+        "tintColor": "#8fbcbb",
+        "tintColor2": "#88c0d0",
+        "textColor":"#d8dee9",
+        "toolbarBackgroundColor": "#2e3440",
+        "toolbarIconColor": "#d8dee9",
+        "menuItemColor": "#d8dee9",
+        "shouldOverwriteFont": true
+    },
+    
+    "styles": {
+        
+        "body": {
+            "font": "AvenirNext-Regular",
+            "size": 16,
+            "color": "#d8dee9",
+        },
+        
+        "title1": {
+            "color": "#8fbcbb",
+            "size": 28
+        },
+        
+        "title2": {
+            "color": "#a3be8c",
+            "size": 24
+        },
+        
+        "title3": {
+            "color": "#88c0d0",
+            "size": 20
+        },
+        
+        "title-mark1": {
+            "color": "#45E1E3E2",
+            "size": 28,
+            "font": "AvenirNext-DemiBold"
+        },
+        
+        "title-mark2": {
+           "color": "#45E1E3E2",
+           "size": 24,
+           "font": "AvenirNext-DemiBold"
+        },
+        
+        "title-mark3": {
+           "color": "#45E1E3E2",
+           "size": 20,
+           "font": "AvenirNext-DemiBold"
+        },
+        
+        "bold": {
+            "font": "AvenirNext-Bold"
+        },
+        
+        "bold-left-mark": {
+            "color": "#8fbcbb"
+        },
+        
+        "bold-right-mark": {
+            "color": "#8fbcbb"
+        },
+        
+        "italic": {
+            "font": "AvenirNext-Italic"
+        },
+        
+        "italic-left-mark": {
+            "color": "#8fbcbb"
+        },
+        
+        "italic-right-mark": {
+            "color": "#8fbcbb"
+        },
+        
+        "boldItalic": {
+            "font": "AvenirNext-BoldItalic"
+        },
+        
+        "boldItalic-left-mark": {
+            "color": "#8fbcbb"
+        },
+        
+        "boldItalic-right-mark": {
+            "color": "#8fbcbb"
+        },
+
+        "code": {
+            "font": "Menlo-Regular",
+            "color": "#e5e9f0",
+            "size": 15
+        },
+    
+        "code-left-backtick": {
+            "color": "#e5e9f0"
+        },
+        
+        "code-right-backtick": {
+            "color": "#e5e9f0"
+        },
+        
+        "checked": {
+            "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\] )(.*)",
+            "matchPosition": 0,
+        
+            "color": "#4c566a",
+            "headIndent": 33        
+        },
+        
+        "checked-canceled": {
+            "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
+            "matchPosition": 0,
+        
+            "color": "#3b4252",
+            "headIndent": 33,
+            "strikethroughStyle": 1
+        },
+        
+        "checked-scheduled": {
+            "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\>\\] )(.*)",
+            "matchPosition": 0,
+        
+            "color": "#b48ead",
+            "headIndent": 33
+        },
+        
+        "todo": {
+            "font": "noteplanstate",
+            "color": "#8fbcbb",
+            "headIndent": 33,
+            "size": 16
+        },
+        
+        "checked-todo-characters": {
+            "font": "noteplanstate",
+            "headIndent": 33,
+            "size": 16
+        },
+        
+        "special-char": {
+            "font": "Menlo-Regular"
+        },
+        
+        "tabbed": {
+            "headIndent": 43
+        },
+        
+        "quote-mark": {
+            "color": "#4c566a",
+            "font": "noteplanstate",
+            "headIndent": 33,
+            "size": 16
+        },
+        
+        "quote-content": {
+            "color": "#5e81ac",
+            "type": "italic",
+            "headIndent": 33
+        },
+        
+        "markdown-link": {
+            "color": "#a3be8c"
+        },
+        
+        "markdown-link-url": {
+            "color": "#a3be8c"
+        },
+        
+        "link": {
+           
+        },
+                        
+        "schedule-to-date-link": {
+          
+        },
+        
+        "done-date": {
+            
+        },
+        
+        "schedule-from-date-link": {
+           
+        },
+
+        "note-title-link": {
+            
+        },
+        
+        "hashtag": {
+
+        },
+        
+        "attag": {
+         
+        },
+        
+        "phonenumber": {
+       
+        }
+    }
+}

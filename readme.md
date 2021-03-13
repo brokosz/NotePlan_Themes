@@ -45,6 +45,8 @@ Made something beautiful? Think of a way to improve an existing theme? Feel free
 ### Light/Dark NP
 ![](img/lightnp.png)
 ![](img/darknp.png)
+### Nord
+![](img/nord.png)
 ### Panda
 ![](img/panda.png)
 ![](img/pandadark.png)
