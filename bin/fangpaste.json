@@ -1,0 +1,240 @@
+{
+  "name": "Fangpaste",
+  "style": "Dark",
+  "author": {
+    "name": "MacBoeck",
+    "email": "macboeck@icloud.com"
+  },
+  "editor": {
+    "backgroundColor": "#242D33",
+    "altBackgroundColor": "#30393E",
+    "tintColor": "#BBC5C9",
+    "tintColor2": "#9AA5A7",
+    "textColor": "#DBE4E9",
+    "toolbarBackgroundColor": "#30393E",
+    "toolbarIconColor": "#BDC6CB",
+    "menuItemColor": "#BDC6CB",
+    "shouldOverwriteFont": false
+  },
+  "styles": {
+    "body": {
+      "font": "Palatino-Roman",
+      "size": 16,
+      "color": "#DBE4E9"
+    },
+    "title1": {
+      "color": "#DBE4E9",
+      "size": 28,
+      "font": "Palatino-Bold"
+    },
+    "title2": {
+      "color": "#BBC5C9",
+      "size": 24,
+      "font": "Palatino-Bold"
+    },
+    "title3": {
+      "color": "#BBC5C9",
+      "size": 20,
+      "font": "Palatino-Bold"
+    },
+    "title-mark1": {
+      "color": "#66DBE4E9",
+      "size": 28,
+      "font": "Palatino-Bold"
+    },
+    "title-mark2": {
+      "color": "#66BBC5C9",
+      "size": 24,
+      "font": "Palatino-Bold"
+    },
+    "title-mark3": {
+      "color": "#66BBC5C9",
+      "size": 20,
+      "font": "Palatino-Bold"
+    },
+    "bold": {
+      "color": "#7F888D",
+      "font": "Palatino-Bold"
+    },
+    "bold-left-mark": {
+      "color": "#667F888D"
+    },
+    "bold-right-mark": {
+      "color": "#667F888D"
+    },
+    "italic": {
+      "color": "#BAC4C8",
+      "font": "Palatino-Italic"
+    },
+    "italic-left-mark": {
+      "color": "#66BAC4C8"
+    },
+    "italic-right-mark": {
+      "color": "#66BAC4C8"
+    },
+    "boldItalic": {
+      "font": "Palatino-BoldItalic"
+    },
+    "boldItalic-left-mark": {
+      "color": "#667F888D"
+    },
+    "boldItalic-right-mark": {
+      "color": "#667F888D"
+    },
+    "code": {
+      "font": "FiraCode-Regular",
+      "color": "#A8B0B5",
+      "size": 15
+    },
+    "code-left-backtick": {
+      "color": "#66A8B0B5"
+    },
+    "code-right-backtick": {
+      "color": "#66A8B0B5"
+    },
+    "checked": {
+      "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\] )(.*)",
+      "matchPosition": 0,
+      "color": "#88AAB4B8",
+      "headIndent": 33
+    },
+    "checked-canceled": {
+      "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
+      "matchPosition": 0,
+      "color": "#44AAB4B8",
+      "headIndent": 33,
+      "strikethroughStyle": 1
+    },
+    "checked-scheduled": {
+      "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\>\\] )(.*)",
+      "matchPosition": 0,
+      "color": "#88AAB4B8",
+      "headIndent": 33
+    },
+    "todo": {
+      "font": "noteplanstate",
+      "color": "#7F888D",
+      "headIndent": 33,
+      "size": 16
+    },
+    "checked-todo-characters": {
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 16
+    },
+    "special-char": {
+      "font": "Menlo-Regular"
+    },
+    "tabbed": {
+      "headIndent": 43
+    },
+    "quote-mark": {
+      "color": "#AAB4B8",
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 16
+    },
+    "quote-content": {
+      "color": "#BDC6CB",
+      "type": "italic",
+      "headIndent": 33
+    },
+    "link": {},
+    "schedule-to-date-link": {},
+    "done-date": {},
+    "schedule-from-date-link": {},
+    "note-title-link": {},
+    "hashtag": {},
+    "attag": {},
+    "phonenumber": {},
+    "highlighted": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 2,
+      "isRevealOnCursorRange": true,
+      "backgroundColor": "#77879195"
+    },
+    "highlighted-left-colon": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#AA45A2E5",
+      "backgroundColor": "#77879195"
+    },
+    "highlighted-right-colon": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#AA45A2E5",
+      "backgroundColor": "#77879195"
+    },
+    "flagged-1": {
+      "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{1}\\h+.*)($|\\v)",
+      "matchPosition": 2,
+      "backgroundColor": "#223C4549",
+      "headIndent": 33
+    },
+    "flagged-2": {
+      "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{2}\\h+.*)($|\\v)",
+      "matchPosition": 2,
+      "backgroundColor": "#553C4549",
+      "headIndent": 33
+    },
+    "flagged-3": {
+      "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{3}\\h+.*)($|\\v)",
+      "matchPosition": 2,
+      "backgroundColor": "#AA3C4549",
+      "headIndent": 33
+    },
+    "strikethrough": {
+      "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))((\\~|_)\\3)(?=\\S)(.*?\\S)(\\3\\3)(?!\\2)(?=[\\W_]|$)",
+      "matchPosition": 4,
+      "strikethroughStyle": 1,
+      "isRevealOnCursorRange": true,
+      "color": "#AACBCCC6",
+      "strikethroughColor": "#C5CDD2"
+    },
+    "strikethrough-left-tilde": {
+      "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))((\\~|_)\\3)(?=\\S)(.*?\\S)(\\3\\3)(?!\\2)(?=[\\W_]|$)",
+      "matchPosition": 2,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#44C5CDD2"
+    },
+    "strikethrough-right-tilde": {
+      "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))(\\~|_)\\2(?=\\S)(.*?\\S)(\\2\\2)(?!\\2)(?=[\\W_]|$)",
+      "matchPosition": 4,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#44C5CDD2"
+    },
+    "underline": {
+      "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))(\\~|_)(?=\\S)((?:(?!\\2).)*?\\S)(\\2)(?!\\2)(?=[\\W_]|$)",
+      "matchPosition": 3,
+      "isRevealOnCursorRange": true,
+      "underlineStyle": 1,
+      "underlineColor": "#C9D3D8"
+    },
+    "underline-left-tilde": {
+      "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))(\\~|_)(?=\\S)((?:(?!\\2).)*?\\S)(\\2)(?!\\2)(?=[\\W_]|$)",
+      "matchPosition": 2,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#44C9D3D8"
+    },
+    "underline-right-tilde": {
+      "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))(\\~|_)(?=\\S)((?:(?!\\2).)*?\\S)(\\2)(?!\\2)(?=[\\W_]|$)",
+      "matchPosition": 4,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#44C9D3D8"
+    }
+  }
+}

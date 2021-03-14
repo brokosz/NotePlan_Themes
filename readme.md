@@ -34,6 +34,9 @@ Please read [contributing.md](contributing.md) for instructions on how to submit
 ![](img/dayonedark.png)
 ### Dark Purple
 ![](img/darkpurple.png)
+### Fang
+![](img/fangbleach.png)
+![](img/fangpaste.png)
 ### Freestraction Simplified
 ![](img/freestraction.png)
 ![](img/freestractiondark.png)
