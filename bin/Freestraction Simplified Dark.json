@@ -7,13 +7,13 @@
   },
   "editor": {
     "backgroundColor": "#1a1a1a",
-    "altBackgroundColor": "#FAFFFF",
+    "altBackgroundColor": "#1a1a1a",
     "tintColor": "#6b8e9d",
     "tintColor2": "#c23184",
     "textColor": "#999999",
     "toolbarBackgroundColor": "#1a1a1a",
-    "toolbarIconColor": "#999999",
-    "menuItemColor": "#999999",
+    "toolbarIconColor": "#c23184",
+    "menuItemColor": "#6b8e9d",
     "shouldOverwriteFont": false
   },
   "styles": {
