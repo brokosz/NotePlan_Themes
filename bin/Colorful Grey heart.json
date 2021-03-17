@@ -1,0 +1,236 @@
+{
+    "name": "Colorful Grey heart",
+    "style": "Light",
+    "author": {
+        "name": "dntme17",
+        "email": ""
+    },
+
+    "editor": {
+        "backgroundColor": "#f6f7f7",
+        "altBackgroundColor": "#ededed",
+        "tintColor": "#0095c9",
+        "tintColor2": "#8d5304",
+        "textColor":"#191a19",
+        "toolbarBackgroundColor": "#dcdcdc",
+        "toolbarIconColor": "#c6c4c2",
+        "menuItemColor": "#444444",
+        "shouldOverwriteFont": false
+    },
+    
+    "styles": {
+        
+        "body": {
+            "font": "iAWriterMonoV-Regular",
+            "size": 14,
+            "color": "#191a19",
+        },
+        
+        "title1": {
+            "size": 28,
+            "font": "iAWriterMonoV-Bold",
+        },
+        
+        "title2": {
+            "size": 24,
+            "font": "iAWriterMonoV-Bold",
+        },
+        
+        "title3": {
+            "regex": "^\\h*(### )(.*)",
+            "size": 20,
+            "font": "iAWriterMonoV-Bold",
+        },
+
+        "title4": {
+            "regex": "^\\h*(####+ )(.*)",
+            "matchPosition": 2,
+            "size": 17,
+            "font": "iAWriterMonoV-Bold",
+        },
+        
+        "title-mark1-custom": {
+            "regex": "^\\h*(# )(.*)",
+            "matchPosition": 1,
+            "color": "#c6c4c2",
+            "size": 28,
+        },
+        
+        "title-mark2-custom": {
+            "regex": "^\\h*(## )(.*)",
+            "matchPosition": 1,
+            "color": "#c6c4c2",
+            "size": 24,
+        },
+        
+        "title-mark3-custom": {
+            "regex": "^\\h*(### )(.*)",
+            "matchPosition": 1,
+            "color": "#c6c4c2",
+            "size": 20,
+        },
+
+        "title-mark4-custom": {
+            "regex": "^\\h*(####+ )(.*)",
+            "matchPosition": 1,
+            "color": "#c6c4c2",
+            "size": 17,
+        },
+
+        "bold": {
+            "type": "bold",
+            "font": "iAWriterMonoV-Bold",
+        },
+        
+        "bold-left-mark-custom": {
+            "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))((\\*|_)\\3)(?=\\S)(.*?\\S)(\\3\\3)(?!\\2)(?=[\\W_]|$)",
+            "matchPosition": 2,
+            "color": "#c6c4c2",
+        },
+        
+        "bold-right-mark-custom": {
+            "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))(\\*|_)\\2(?=\\S)(.*?\\S)(\\2\\2)(?!\\2)(?=[\\W_]|$)",
+            "matchPosition": 4,
+            "color": "#c6c4c2",
+        },
+        
+        "italic": {
+            "type": "italic",
+            "font": "iAWriterMonoV-Italic",
+        },
+        
+        "italic-left-mark-custom": {
+            "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))(\\*|_)(?=\\S)((?:(?!\\2).)*?\\S)(\\2)(?!\\2)(?=[\\W_]|$)",
+            "matchPosition": 2,
+            "color": "#c6c4c2",
+        },
+        
+        "italic-right-mark-custom": {
+            "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))(\\*|_)(?=\\S)((?:(?!\\2).)*?\\S)(\\2)(?!\\2)(?=[\\W_]|$)",
+            "matchPosition": 4,
+            "color": "#c6c4c2",
+        },
+        
+        "boldItalic": {
+            "type": "bolditalic",
+            "font": "iAWriterMonoV-BoldItalic",
+        },
+        
+        "boldItalic-left-mark": {
+            "color": "#c6c4c2"
+        },
+        
+        "boldItalic-right-mark": {
+            "color": "#c6c4c2"
+        },
+        
+        "code": {
+            "font": "Menlo-Regular",
+            "size": 14,
+            "color": "#006699",
+            "backgroundColor": "#ffffff",
+            
+        },
+    
+        "code-left-backtick-custom": {
+            "regex": "(`)([^`]{1,})(`)",
+            "matchPosition": 1,
+            "type": "bold",
+            "color": "#85006d",
+            "backgroundColor": "#ffffff",
+            "font": "Menlo-Regular",
+        },
+        
+        "code-right-backtick-custom": {
+            "regex": "(`)([^`]{1,})(`)",
+            "matchPosition": 3,
+            "type": "bold",
+            "color": "#85006d",
+            "backgroundColor": "#ffffff",
+            "font": "Menlo-Regular",
+        },
+        
+        "checked": {
+            "color": "#c6c4c2",
+            "headIndent": 33
+        },
+        
+        "todo": {
+            "font": "noteplanstate",
+            "color": "#006699",
+            "headIndent": 33,
+            "size": 16
+        },
+        
+        "checked-todo-characters": {
+            "font": "noteplanstate",
+            "headIndent": 33,
+            "size": 16
+        },
+        
+        "special-char": {
+            "font": "Menlo-Regular"
+        },
+        
+        "tabbed": {
+            "headIndent": 43
+        },
+        
+        "quote-mark": {
+            "color": "#006699",
+            "font": "noteplanstate",
+            "headIndent": 33,
+            "size": 16
+        },
+        
+        "quote-content": {
+            "color": "#85006d",
+            "type": "italic",
+            "headIndent": 33
+        },
+
+        "highlighted-left-mark": {
+            "regex": "(::|==)([^=:]{1,})(::|==)",
+            "matchPosition": 1,
+            "color": "#c1c100",
+            "backgroundColor": "#eaea00"
+        },
+
+        "highlighted-right-mark": {
+            "regex": "(::|==)([^=:]{1,})(::|==)",
+            "matchPosition": 3,
+            "color": "#c1c100",
+            "backgroundColor": "#eaea00"
+        },
+
+        "highlighted": {
+            "regex": "(::|==)([^=:]{1,})(::|==)",
+            "matchPosition": 2,
+            "color": "#191a19",
+            "backgroundColor": "#eaea00"
+        },
+
+        "strikethrough": {
+            "regex": "(~~)([^:]{1,})(~~)",
+            "matchPosition": 0,
+            "strikethroughStyle": 1,
+            "strikethroughColor": "#b9b9ba",
+            "color": "#b9b9ba",
+        },
+
+        "hot": {
+            "regex": "(^|\\v)\\h*(\\*|-)\\h*\\[ \\]\\h+(.*?#hot.*)($|\\v)",
+            "matchPosition": 3,
+            "backgroundColor": "#ffffa3",
+        },
+        
+        "link": {},
+        "schedule-to-date-link": {},
+        "done-date": {},
+        "schedule-from-date-link": {},
+        "note-title-link": {},
+        "hashtag": {},
+        "attag": {},
+        "phonenumber": {}
+    }
+}
