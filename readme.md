@@ -29,6 +29,9 @@ Please read [contributing.md](contributing.md) for instructions on how to submit
 ![](img/atom.png)
 ### Chalk and Coal
 ![](img/chalkandcoal.png)
+## Colorful Grey Heart
+![](img/colorfulgreyheart.png)
+![](img/colorfulgreydarkheart.png)
 ### Day One
 ![](img/dayone.png)
 ![](img/dayonedark.png)
@@ -40,9 +43,6 @@ Please read [contributing.md](contributing.md) for instructions on how to submit
 ### Freestraction Simplified
 ![](img/freestraction.png)
 ![](img/freestractiondark.png)
-## Grey Heart
-![](img/colorfulgreyheart.png)
-![](img/colorfulgreydarkheart.png)
 ### Gryffindor
 ![](img/gryffindormacos.png)
 ![](img/gryffindorios.png)
