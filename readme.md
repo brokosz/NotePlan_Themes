@@ -65,7 +65,7 @@ Please read [contributing.md](contributing.md) for instructions on how to submit
 [How to configure Scripture](https://github.com/robgrace/NPTheme-Scripture#basic-use)  
 ### Soft Blue
 ![](img/softblue.png)
-![](img/darkblue.png)
+![(img/darkblue.png)](https://github.com/brokosz/NotePlan_Themes/blob/main/bin/Blue%20Heart.json)
 ### Soft Contrast
 ![](img/softcontrastlight.png)
 ![](img/softcontrastdark.png)
