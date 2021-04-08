@@ -161,7 +161,7 @@
             "urlPosition": 1,
             "type": "link",
             "backgroundColor":"#efefcc",
-            "font": "AvenirNext-Bold",
+            "font": "Palatino-Bold",
             "prefix": "https://www.biblegateway.com/passage/?search="
         },   
   
@@ -170,9 +170,8 @@
             "matchPosition": 2,
             "urlPosition": 2,
             "type": "link",
-            "underlineStyle": 1,
             "backgroundColor":"#efefcc",
-            "font": "AvenirNext-Bold",
+            "font": "Palatino-Bold",
             "prefix": "olivetree://bible/"
         },   
 
