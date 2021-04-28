@@ -78,6 +78,7 @@ Please read [contributing.md](contributing.md) for instructions on how to submit
 ![](img/thethymes.png)
 ### Things
 ![](img/things.png)
+![](img/thingsdark.png)
 ### Tomorrow Night
 ![](img/tomorrownight.png)
 ### Toothpaste Pro
