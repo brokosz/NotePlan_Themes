@@ -72,10 +72,13 @@ Please read [contributing.md](contributing.md) for instructions on how to submit
 ### Squid Ink
 ![](img/squidinklight.png)
 ![](img/squidink.png)
+### Subdued
+![](img/subdued.png)
 ### The Thymes
 ![](img/thethymes.png)
 ### Things
 ![](img/things.png)
+![](img/thingsdark.png)
 ### Tomorrow Night
 ![](img/tomorrownight.png)
 ### Toothpaste Pro
