@@ -54,6 +54,8 @@ Please read [contributing.md](contributing.md) for instructions on how to submit
 ![](img/darknp.png)
 ### Nord
 ![](img/nord.png)
+### Noteworthy (Mobile)
+![](img/noteworthy.png)
 ### Panda
 ![](img/panda.png)
 ![](img/pandadark.png)
