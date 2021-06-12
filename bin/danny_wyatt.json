@@ -1,0 +1,319 @@
+{
+    "name": "Danny Wyatt",
+    "style": "Dark",
+    "author": {
+        "name": "NotePlan",
+        "email": "hello@noteplan.co"
+    },
+
+    "editor": {
+        "backgroundColor": "#272A37",
+        "altBackgroundColor": "#232530", 
+        "tintColor": "#3FD2E9", 
+        "tintColor2": "#FFB763",
+        "textColor":"#F7F7EF",
+        "toolbarBackgroundColor": "#464852",
+        "toolbarIconColor": "#F7F7EF",
+        "menuItemColor": "#F7F7EF",
+        "shouldOverwriteFont": true
+    },
+    
+    "styles": {
+        
+        "body": {
+            "font": "AvenirNext-Regular",
+            "size": 16,
+            "color": "#989FAE",
+        },
+        
+        "title1": {
+            "color": "#E9C062",
+            "size": 28,
+            "font": "AvenirNext-DemiBold"
+        },
+        
+        "title2": {
+            "color": "#E9C062",
+            "size": 24,
+            "font": "AvenirNext-DemiBold"
+        },
+        
+        "title3": {
+            "regex": "^\\h*(### )(.*)",
+            "matchPosition": 2,
+            "isRevealOnCursorRange": true,
+            "color": "#E9C062",
+            "size": 20,
+            "font": "AvenirNext-DemiBold"
+        },
+
+        "title4": {
+            "regex": "^\\h*(####+ )(.*)",
+            "matchPosition": 2,
+            "isRevealOnCursorRange": true,
+            "color": "#E9C062",
+            "size": 18,
+            "font": "AvenirNext-Regular"
+        },
+        
+        "title-mark1": {
+            "color": "#4045F170",
+            "size": 28,
+            "font": "AvenirNext-DemiBold"
+        },
+        
+        "title-mark2": {
+           "color": "#4045F170",
+           "size": 24,
+           "font": "AvenirNext-DemiBold"
+        },
+        
+        "title-mark3": {
+           "color": "#4045F170",
+           "size": 20,
+           "font": "AvenirNext-DemiBold"
+        },
+
+        "bold": {
+            "color": "#fff",
+            "font": "AvenirNext-Bold"
+        },
+        
+        "bold-left-mark": {
+            "color": "#40F7F7EF"
+        },
+        
+        "bold-right-mark": {
+            "color": "#40F7F7EF"
+        },
+        
+        "italic": {
+            "font": "AvenirNext-Italic"
+        },
+        
+        "italic-left-mark": {
+            "color": "#40F7F7EF"
+        },
+        
+        "italic-right-mark": {
+            "color": "#40F7F7EF"
+        },
+        
+        "boldItalic": {
+            "font": "AvenirNext-BoldItalic"
+        },
+        
+        "boldItalic-left-mark": {
+            "color": "#40F7F7EF"
+        },
+        
+        "boldItalic-right-mark": {
+            "color": "#40F7F7EF"
+        },
+        
+        "code": {
+            "font": "Menlo-Regular",
+            "color": "#FFB763",
+            "size": 15
+        },
+    
+        "code-left-backtick": {
+            "color": "#66FFB763"
+        },
+        
+        "code-right-backtick": {
+            "color": "#66FFB763"
+        },
+        
+        "checked": {
+            "color": "#55F7F7EF",
+            "headIndent": 33
+        },
+        
+        "todo": {
+            "font": "noteplanstate",
+            "color": "#0FE9FF",
+            "headIndent": 33,
+            "size": 16
+        },
+        
+        "checked-todo-characters": {
+            "font": "noteplanstate",
+            "headIndent": 33,
+            "size": 16
+        },
+        
+        "special-char": {
+            "font": "Menlo-Regular",
+        },
+        
+        "tabbed": {
+            "headIndent": 43
+        },
+        
+        "quote-mark": {
+            "color": "#80FFB763",
+            "font": "noteplanstate",
+            "headIndent": 33,
+            "size": 16
+        },
+        
+        "quote-content": {
+            "color": "#F7F7EF",
+            "type": "italic",
+            "headIndent": 33
+        },
+        
+        "link": {
+            "underlineStyle": 1
+        },
+                        
+        "schedule-to-date-link": {
+          
+        },
+        
+        "done-date": {
+            
+        },
+        
+        "schedule-from-date-link": {
+        
+        },
+
+        "note-title-link": {
+        
+        },
+        
+        "hashtag": {
+
+        },
+        
+        "attag": {
+         
+        },
+        
+        "phonenumber": {
+       
+        },
+
+        "text-red": {
+            "regex": "(/r )([^/]{1,})( r/)",
+            "matchPosition": 2,
+            "isRevealOnCursorRange": true,
+            "color": "#D65661"
+        },
+        "text-red-left": {
+            "regex": "(/r )([^/]{1,})( r/)",
+            "matchPosition": 1,
+            "isMarkdownCharacter": true,
+            "isHiddenWithoutCursor": true,
+            "isRevealOnCursorRange": true,
+            "color": "#45474E"
+        },
+
+        "text-red-right": {
+            "regex": "(/r )([^/]{1,})( r/)",
+            "matchPosition": 3,
+            "isMarkdownCharacter": true,
+            "isHiddenWithoutCursor": true,
+            "isRevealOnCursorRange": true,
+            "color": "#45474E"
+        },
+
+        "text-green": {
+            "regex": "(/g )([^/]{1,})( g/)",
+            "matchPosition": 2,
+            "isRevealOnCursorRange": true,
+            "color": "#73BA5C"
+        },
+        "text-green-left": {
+            "regex": "(/g )([^/]{1,})( g/)",
+            "matchPosition": 1,
+            "isMarkdownCharacter": true,
+            "isHiddenWithoutCursor": true,
+            "isRevealOnCursorRange": true,
+            "color": "#45474E"
+        },
+
+        "text-green-right": {
+            "regex": "(/g )([^/]{1,})( g/)",
+            "matchPosition": 3,
+            "isMarkdownCharacter": true,
+            "isHiddenWithoutCursor": true,
+            "isRevealOnCursorRange": true,
+            "color": "#45474E"
+        },
+
+        "text-blue": {
+            "regex": "(/b )([^/]{1,})( b/)",
+            "matchPosition": 2,
+            "isRevealOnCursorRange": true,
+            "color": "#1794CF"
+        },
+        "text-blue-left": {
+            "regex": "(/b )([^/]{1,})( b/)",
+            "matchPosition": 1,
+            "isMarkdownCharacter": true,
+            "isHiddenWithoutCursor": true,
+            "isRevealOnCursorRange": true,
+            "color": "#45474E"
+        },
+
+        "text-blue-right": {
+            "regex": "(/b )([^/]{1,})( b/)",
+            "matchPosition": 3,
+            "isMarkdownCharacter": true,
+            "isHiddenWithoutCursor": true,
+            "isRevealOnCursorRange": true,
+            "color": "#45474E"
+        },
+
+        "text-pink": {
+            "regex": "(/p )([^/]{1,})( p/)",
+            "matchPosition": 2,
+            "isRevealOnCursorRange": true,
+            "color": "#DD2067"
+        },
+        "text-pink-left": {
+            "regex": "(/p )([^/]{1,})( p/)",
+            "matchPosition": 1,
+            "isMarkdownCharacter": true,
+            "isHiddenWithoutCursor": true,
+            "isRevealOnCursorRange": true,
+            "color": "#45474E"
+        },
+
+        "text-pink-right": {
+            "regex": "(/p )([^/]{1,})( p/)",
+            "matchPosition": 3,
+            "isMarkdownCharacter": true,
+            "isHiddenWithoutCursor": true,
+            "isRevealOnCursorRange": true,
+            "color": "#45474E"
+        },
+
+        "highlighted": {
+            "regex": "(==)([^=]{1,})(==)",
+            "matchPosition": 2,
+            "isRevealOnCursorRange": true,
+            "color": "#ff0000"
+        },
+        "highlighted-left-colon": {
+            "regex": "(==)([^=]{1,})(==)",
+            "matchPosition": 1,
+            "isMarkdownCharacter": true,
+            "isHiddenWithoutCursor": true,
+            "isRevealOnCursorRange": true,
+            "color": "#AA45A2E5"
+        },
+        "highlighted-right-colon": {
+            "regex": "(==)([^=]{1,})(==)",
+            "matchPosition": 3,
+            "isMarkdownCharacter": true,
+            "isHiddenWithoutCursor": true,
+            "isRevealOnCursorRange": true,
+            "color": "#AA45A2E5"
+        }
+
+    }
+}

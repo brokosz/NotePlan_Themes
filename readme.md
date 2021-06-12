@@ -32,6 +32,8 @@ Please read [contributing.md](contributing.md) for instructions on how to submit
 ## Colorful Grey Heart
 ![](img/colorfulgreyheart.png)
 ![](img/colorfulgreydarkheart.png)
+### Danny Wyatt
+![](img/danny_wyatt.png)
 ### Day One
 ![](img/dayone.png)
 ![](img/dayonedark.png)
@@ -52,6 +54,8 @@ Please read [contributing.md](contributing.md) for instructions on how to submit
 ### Light/Dark NP
 ![](img/lightnp.png)
 ![](img/darknp.png)
+### Nandor
+![](img/nandor.png)
 ### Nord
 ![](img/nord.png)
 ### Noteworthy (Mobile)
