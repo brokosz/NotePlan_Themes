@@ -2,8 +2,8 @@
     "name": "Danny Wyatt",
     "style": "Dark",
     "author": {
-        "name": "NotePlan",
-        "email": "hello@noteplan.co"
+        "name": "Danny Wyatt",
+        "email": "contact@iamdannywyatt.com"
     },
 
     "editor": {
@@ -15,7 +15,7 @@
         "toolbarBackgroundColor": "#464852",
         "toolbarIconColor": "#F7F7EF",
         "menuItemColor": "#F7F7EF",
-        "shouldOverwriteFont": true
+        "shouldOverwriteFont": false
     },
     
     "styles": {
@@ -23,7 +23,7 @@
         "body": {
             "font": "AvenirNext-Regular",
             "size": 16,
-            "color": "#989FAE",
+            "color": "#989FAE"
         },
         
         "title1": {
@@ -75,8 +75,8 @@
         },
 
         "bold": {
-            "color": "#fff",
-            "font": "AvenirNext-Bold"
+            "color": "#dedddd",
+            "font": "AvenirNext-DemiBold"
         },
         
         "bold-left-mark": {
@@ -144,7 +144,7 @@
         },
         
         "special-char": {
-            "font": "Menlo-Regular",
+            "font": "Menlo-Regular"
         },
         
         "tabbed": {
@@ -268,6 +268,30 @@
             "color": "#45474E"
         },
 
+        "text-yellow": {
+            "regex": "(/y )([^/]{1,})( y/)",
+            "matchPosition": 2,
+            "isRevealOnCursorRange": true,
+            "color": "#E9C062"
+        },
+        "text-yellow-left": {
+            "regex": "(/y )([^/]{1,})( y/)",
+            "matchPosition": 1,
+            "isMarkdownCharacter": true,
+            "isHiddenWithoutCursor": true,
+            "isRevealOnCursorRange": true,
+            "color": "#45474E"
+        },
+
+        "text-yellow-right": {
+            "regex": "(/y )([^/]{1,})( y/)",
+            "matchPosition": 3,
+            "isMarkdownCharacter": true,
+            "isHiddenWithoutCursor": true,
+            "isRevealOnCursorRange": true,
+            "color": "#45474E"
+        },
+
         "text-pink": {
             "regex": "(/p )([^/]{1,})( p/)",
             "matchPosition": 2,
@@ -313,6 +337,52 @@
             "isHiddenWithoutCursor": true,
             "isRevealOnCursorRange": true,
             "color": "#AA45A2E5"
+        },
+
+        "flagged-1": {
+            "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{1}\\h+.*)($|\\v)",
+            "matchPosition": 2,
+            "backgroundColor": "#2773db",
+            "color": "#fff",
+            "headIndent": 33
+        },
+        "flagged-2": {
+            "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{2}\\h+.*)($|\\v)",
+            "matchPosition": 2,
+            "backgroundColor": "#ef8431",
+            "color": "#fff",
+            "headIndent": 33
+        },
+        "flagged-3": {
+            "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{3}\\h+.*)($|\\v)",
+            "matchPosition": 2,
+            "backgroundColor": "#cf4542",
+            "color": "#fff",
+            "headIndent": 33
+        },
+
+        "underline": {
+            "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))(\\/u|_)(?=\\S)((?:(?!\\2).)*?\\S)(\\2)(?!\\2)(?=[\\W_]|$)",
+            "matchPosition": 3,
+            "isRevealOnCursorRange": true,
+            "underlineStyle": 1,
+            "underlineColor": "#FFCC66"
+        },
+        "underline-left-tilde": {
+            "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))(\\/u|_)(?=\\S)((?:(?!\\2).)*?\\S)(\\2)(?!\\2)(?=[\\W_]|$)",
+            "matchPosition": 2,
+            "isMarkdownCharacter": true,
+            "isHiddenWithoutCursor": true,
+            "isRevealOnCursorRange": true,
+            "color": "#45474E"
+        },
+        "underline-right-tilde": {
+            "regex": "(^|[\\W_])(?:(?!\\1)|(?=^))(\\/u|_)(?=\\S)((?:(?!\\2).)*?\\S)(\\2)(?!\\2)(?=[\\W_]|$)",
+            "matchPosition": 4,
+            "isMarkdownCharacter": true,
+            "isHiddenWithoutCursor": true,
+            "isRevealOnCursorRange": true,
+            "color": "#45474E"
         }
 
     }
