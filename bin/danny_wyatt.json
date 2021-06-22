@@ -22,7 +22,7 @@
         
         "body": {
             "font": "AvenirNext-Regular",
-            "size": 16,
+            "size": 17,
             "color": "#989FAE"
         },
         
@@ -73,6 +73,12 @@
            "size": 20,
            "font": "AvenirNext-DemiBold"
         },
+
+        "title-mark4": {
+            "color": "#4045F170",
+            "size": 18,
+            "font": "AvenirNext-DemiBold"
+         },
 
         "bold": {
             "color": "#dedddd",
