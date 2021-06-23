@@ -7,7 +7,7 @@
   },
   "editor": {
     "backgroundColor": "#0c0a20",
-    "altBackgroundColor": "#21347D",
+    "altBackgroundColor": "#0c0a20",
     "tintColor": "#FF0081",
     "tintColor2": "#D86BFF",
     "textColor": "#F8F8F2",
@@ -19,7 +19,7 @@
   "styles": {
     "body": {
       "font": "GillSans-Light",
-      "size": 20,
+      "size": 16,
       "color": "#F8F8F2"
     },
     "title1": {
@@ -37,6 +37,11 @@
       "font": "GillSans-SemiBold",
       "size": 20
     },
+    "title4": {
+      "color": "#ffd319",
+      "font": "GillSans-SemiBold",
+      "size": 18
+    },
     "title-mark1": {
       "color": "#42c6ff",
       "size": 34,
@@ -52,9 +57,14 @@
       "size": 20,
       "font": "GillSans-SemiBold"
     },
+    "title-mark4": {
+      "color": "#ffd319",
+      "size": 18,
+      "font": "GillSans-SemiBold"
+    },
     "bold": {
       "color": "#42c6ff",
-      "size": 20,
+      "size": 16,
       "font": "GillSans-SemiBold"
     },
     "bold-left-mark": {
@@ -65,7 +75,7 @@
     },
     "italic": {
       "color": "#ff9b50",
-      "size": 20,
+      "size": 16,
       "font": "GillSans-Italic"
     },
     "italic-left-mark": {
@@ -76,7 +86,7 @@
     },
     "boldItalic": {
       "color": "#42C6FF",
-      "size": 20,
+      "size": 16,
       "font": "GillSans-BoldItalic"
     },
     "boldItalic-left-mark": {
@@ -99,12 +109,12 @@
       "font": "noteplanstate",
       "color": "#D86BFF",
       "headIndent": 33,
-      "size": 20
+      "size": 16
     },
     "checked-todo-characters": {
       "font": "noteplanstate",
       "headIndent": 33,
-      "size": 20
+      "size": 16
     },
     "special-char": {
       "color": "#F8F8F2",
