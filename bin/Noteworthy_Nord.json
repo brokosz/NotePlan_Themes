@@ -1,0 +1,345 @@
+{
+   "name": "Noteworthy Nord (Mobile)",
+    "style": "Light",
+    "author": {
+        "name": "Dimitry Jacobs thanx for the Inspiration of Robert Grace",
+        "email": "dimitry.jacobs@icloud.com"
+    },
+    
+  "editor": {
+        "backgroundColor": "#ffffff",
+        "altBackgroundColor": "#ffffff",
+        "tintColor": "#fb7a49",
+        "tintColor2": "#009bc9",
+        "textColor":"#50656B",
+        "toolbarBackgroundColor": "#fee4da",
+        "toolbarIconColor": "#586E75",
+        "menuItemColor": "#586E75",
+        "shouldOverwriteFont": false
+    },
+    
+    "styles": {
+        "body": {
+            "font": "Noteworthy-Light",
+            "size":16,
+            "color": "#000000",
+            "lineSpacing":-4
+             },
+
+        "title1": {
+            "color": "#009bc9",
+            "size": 24,
+            "font": "Noteworthy-Bold"
+           },
+        
+        "title2": {
+           "color": "#2f6a8e",
+            "size": 22,
+            "font": "Noteworthy-Light"
+        },
+        
+        "title3": {
+            "color": "#33bbbb",
+            "size": 20,
+            "font": "Noteworthy-Light"
+        },
+        
+        "title-mark1": {
+            "color": "#009bc9",
+            "size": 24,
+            "font": "AvenirNext-DemiBold",
+            "lineSpacing":-4,
+            "paragraphSpacing":-1
+        },
+        
+        "title-mark2": {
+           "color": "#2f6a8e",
+           "size": 22,
+          "font": "Noteworthy-Light",
+           "lineSpacing":-4,
+           "paragraphSpacing":-1
+        },
+        
+        "title-mark3": {
+           "color": "#33bbbb",
+           "size": 20,
+         "font": "Noteworthy-Light",
+           "lineSpacing":-4,
+           "paragraphSpacing":-1
+        },
+        
+        "bold": {
+            "font": "Noteworthy-Bold",
+            "size":18,
+            "lineSpacing":-4,
+            "color": "#f5a201",
+            "paragraphSpacing":-1
+                    },
+        
+        "bold-left-mark": {
+            "color": "#f5a201",
+            "size": 18,
+            "lineSpacing":-4,
+            "paragraphSpacing":-1,
+        },
+        
+        "bold-right-mark": {
+            "color": "#f5a201",
+              "size": 18,
+        },
+        
+        "italic": {
+            "font": "AvenirNextCondensed-MediumItalic",
+            "type": "italic",
+            "size": 18,
+            "lineSpacing":-4,
+            "color": "#f5a201",
+            "paragraphSpacing":-1    
+        },
+        
+        "italic-left-mark": {
+            "color": "#f5a201"
+        },
+        
+        "italic-right-mark": {
+            "color": "#f5a201"
+        },
+        
+        "boldItalic": {
+            "type": "AvenirNextCondensed-BoldItalic"
+        },
+        
+        "boldItalic-left-mark": {
+            "color": "#f5a201"
+        },
+        
+        "boldItalic-right-mark": {
+            "color": "##f5a201"
+        },
+        
+        "code-fence": {
+            "theme": "solarized-dark",
+            "size": 13
+        },
+
+       
+        
+        "checked": {
+            "color": "#66333333",
+            "headIndent": 33,
+            "lineSpacing":-4,
+            "paragraphSpacing":-1
+        },
+        
+        "todo": {
+            "font": "noteplanstate",
+            "color": "#d87001",
+            "headIndent": 33,
+            "size": 16,
+            "lineSpacing":-3,
+            "paragraphSpacing":-1
+     
+        },
+        
+        "checked-todo-characters": {
+            "font": "noteplanstate",
+            "headIndent": 33,
+            "size": 16,
+            "lineSpacing":-3,
+            "paragraphSpacing":-1
+        },
+
+        "checked-canceled": {
+          "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
+          "matchPosition": 0,
+          "color": "#e39f9f",
+          "lineSpacing":-3,
+          "paragraphSpacing":-1,
+          "strikethroughStyle": 1,
+          "headIndent": 33,  
+        },
+
+       "checked-scheduled": {
+          "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\>\\] )(.*)",
+          "matchPosition": 0,
+          "color": "#78587e",
+          "lineSpacing":-3,
+          "paragraphSpacing":-1,
+          "headIndent": 33
+       },
+        
+        "special-char": {
+            "font": "Menlo-Regular"
+        },
+        
+        "tabbed": {
+            "headIndent": 23,
+            "lineSpacing":-3,
+            "paragraphSpacing":-1
+        },
+        
+        "quote-mark": {
+            "color": "#00ab9e",
+            "font": "noteplanstate",
+            "headIndent": 33,
+            "size": 16,
+            "lineSpacing":-3,
+            "paragraphSpacing":-1
+        },
+        
+        "quote-content": {
+            "color": "#00ab9e",
+            "type": "italic",
+            "headIndent": 33
+        },
+
+        "easy": { 
+               "regex": "EASY",
+               "backgroundColor": "#bbd6e8",
+               "font": "AvenirNextCondensed-MediumItalic",
+               "type": "italic",
+               "size": 13,
+
+               "color": "#000000" },
+
+        "clean": {
+               "regex": "CLEAN",
+               "backgroundColor": "#ffd358",
+               "font": "AvenirNextCondensed-MediumItalic",
+            "type": "italic",
+               "size": 13,
+
+               "color": "#000000" },
+
+          "difficult": {
+               "regex": "FOCUS",
+               "backgroundColor": "#ffb0b0",
+               "font": "AvenirNextCondensed-MediumItalic",
+            "type": "italic",
+               "size": 13,
+              "color": "#000000" },
+
+         "fun": {
+               "regex": "FUN",
+               "backgroundColor": "#94cce7",
+               "size": 13,
+               "font": "AvenirNextCondensed-MediumItalic",
+            "type": "italic",
+               "color": "#000000" },
+
+       "schedule-to-date-link": {
+            "font": "Noteworthy-Light",
+           "size": 14,
+           "lineSpacing":-3,
+            "paragraphSpacing":-1
+        },
+
+        "search": {
+               "regex": "//",
+               "font": "Noteworthy-Light",
+               "color": "#FB7A49" },
+        
+        "highlighted": {
+             "regex": "(::)([^:]{1,})(::)",
+             "matchPosition": 2,
+             "isRevealOnCursorRange": true,
+             "backgroundColor": "#fdf1c8"
+            },
+ 
+         "highlighted-left-colon": {
+             "regex": "(::)([^:]{1,})(::)",
+             "matchPosition": 1,
+             "isMarkdownCharacter": true,
+             "isHiddenWithoutCursor": true,
+             "isRevealOnCursorRange": true,
+             "color": "#fdf1c8"
+            },
+ 
+          "highlighted-right-colon": {
+             "regex": "(::)([^:]{1,})(::)",
+             "matchPosition": 3,
+             "isMarkdownCharacter": true,
+             "isHiddenWithoutCursor": true,
+             "isRevealOnCursorRange": true,
+             "color": "#fdf1c8"
+            },
+
+
+        "strikethrough": {
+            "regex": "(~~)([^~]{1,})(~~)",
+            "matchPosition": 2,
+            "strikethroughStyle": 1,
+            "color": "#009bc9",
+            "isRevealOnCursorRange": true
+            },
+              
+        "flagged-1": {
+            "regex": "(^|\\v)(\\h*-(\\- |\\* )\\!\\s.*)($|\\v)",
+            "matchPosition": 2,
+            "backgroundColor": "#22D0021B",
+            "color": "#ffffff",
+            "headIndent": 33
+           },
+
+        "flagged-2": {
+            "regex": "(^|\\v)(\\h*(\\- |\\* )\\!\\!\\s.*)($|\\v)",
+            "matchPosition": 2,
+            "backgroundColor": "#55D0021B",
+            "color": "#ffffff",
+            "headIndent": 33
+           },
+
+        "flagged-3": {
+            "regex": "(^|\\v)(\\h*(\\- |\\* )\\!\\!\\!\\s.*)($|\\v)",
+            "matchPosition": 2,
+            "backgroundColor": "#AAD0021B",
+            "color": "#ffffff",
+            "headIndent": 33
+           },
+
+        "note-search-link":  {
+          "regex": "//(\\S[^/]*\\S)//",
+          "matchPosition": 1,
+          "urlPosition": 1,
+          "type": "link",
+          "size": 14,
+          "prefix": "noteplan://x-callback-url/search?text="
+          },
+
+        "done-date": {
+            
+        },
+        
+        "schedule-from-date-link": {
+         "font": "Noteworthy-Light",
+         "lineSpacing":-4,
+         "size": 14
+
+        },
+ 
+       "note-title-link": {
+           "font": "Noteworthy-Light",
+           "size": 14,
+           "lineSpacing":-3,
+            "paragraphSpacing":-1
+          },
+
+        "hashtag": {
+          "font": "Noteworthy-Light",
+          "size": 16,
+          "lineSpacing":-3,
+          "paragraphSpacing":-1
+        },
+        
+        "attag": {
+           "font": "Noteworthy-Light",
+           "size": 16,
+           "lineSpacing":-3,
+           "paragraphSpacing":-1
+        },
+        
+        "phonenumber": {
+       
+        }
+    }
+}
