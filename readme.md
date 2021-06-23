@@ -36,7 +36,7 @@ Please read [contributing.md](contributing.md) for instructions on how to submit
 
 ![](img/chalkandcoal.png)
 
-## Colorful Grey Heart
+### Colorful Grey Heart
 
 ![](img/colorfulgreyheart.png)
 ![](img/colorfulgreydarkheart.png)
@@ -107,7 +107,7 @@ Please read [contributing.md](contributing.md) for instructions on how to submit
 ### Scripture
 
 ![](img/scripture.png)
-![](img/scripturedark.png)
+![](img/scripturedark.png)  
 [How to configure Scripture](https://github.com/robgrace/NPTheme-Scripture#basic-use)
 
 ### Soft Blue
