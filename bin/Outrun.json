@@ -1,0 +1,216 @@
+{
+  "name": "Outrun",
+  "style": "Dark",
+  "author": {
+    "name": "Brad Rokosz",
+    "email": "hello@noteplan.co"
+  },
+  "editor": {
+    "backgroundColor": "#0c0a20",
+    "altBackgroundColor": "#21347D",
+    "tintColor": "#FF0081",
+    "tintColor2": "#D86BFF",
+    "textColor": "#F8F8F2",
+    "toolbarBackgroundColor": "#0c0a20",
+    "toolbarIconColor": "#42C6FF",
+    "menuItemColor": "#ff9b50",
+    "shouldOverwriteFont": false
+  },
+  "styles": {
+    "body": {
+      "font": "GillSans-Light",
+      "size": 20,
+      "color": "#F8F8F2"
+    },
+    "title1": {
+      "color": "#42c6ff",
+      "font": "GillSans-Light",
+      "size": 34
+    },
+    "title2": {
+      "color": "#ff2afc",
+      "font": "GillSans-SemiBold",
+      "size": 26
+    },
+    "title3": {
+      "color": "#D86BFF",
+      "font": "GillSans-SemiBold",
+      "size": 20
+    },
+    "title-mark1": {
+      "color": "#42c6ff",
+      "size": 34,
+      "font": "GillSans-Light"
+    },
+    "title-mark2": {
+      "color": "#ff2afc",
+      "size": 26,
+      "font": "GillSans-SemiBold"
+    },
+    "title-mark3": {
+      "color": "#D86BFF",
+      "size": 20,
+      "font": "GillSans-SemiBold"
+    },
+    "bold": {
+      "color": "#42c6ff",
+      "size": 20,
+      "font": "GillSans-SemiBold"
+    },
+    "bold-left-mark": {
+      "color": "#42c6ff"
+    },
+    "bold-right-mark": {
+      "color": "#42c6ff"
+    },
+    "italic": {
+      "color": "#ff9b50",
+      "size": 20,
+      "font": "GillSans-Italic"
+    },
+    "italic-left-mark": {
+      "color": "#ff9b50"
+    },
+    "italic-right-mark": {
+      "color": "#ff9b50"
+    },
+    "boldItalic": {
+      "color": "#42C6FF",
+      "size": 20,
+      "font": "GillSans-BoldItalic"
+    },
+    "boldItalic-left-mark": {
+      "color": "#42C6FF"
+    },
+    "boldItalic-right-mark": {
+      "color": "#42C6FF"
+    },
+    "code": {
+      "font": "Monaco",
+      "color": "#A3D6E0",
+      "backgroundColor": "#24264F",
+      "size": 16
+    },
+    "checked": {
+      "color": "#546A90",
+      "headIndent": 33
+    },
+    "todo": {
+      "font": "noteplanstate",
+      "color": "#D86BFF",
+      "headIndent": 33,
+      "size": 20
+    },
+    "checked-todo-characters": {
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 20
+    },
+    "special-char": {
+      "color": "#F8F8F2",
+      "font": "Monaco"
+    },
+    "tabbed": {
+      "headIndent": 43
+    },
+    "quote-mark": {
+      "color": "#7984D1",
+      "font": "noteplanstate",
+      "headIndent": 33,
+      "size": 24
+    },
+    "quote-content": {
+      "color": "#ffd319",
+      "type": "italic",
+      "headIndent": 33,
+      "font": "GillSans-Italic",
+      "size": 24
+    },
+    "link": {
+      "backgroundColor": "#0c0a20"
+    },
+    "schedule-to-date-link": {},
+    "done-date": {
+      "color": "#546A90",
+    },
+    "schedule-from-date-link": {},
+    "note-title-link": {},
+    "hashtag": {},
+    "attag": {},
+    "phonenumber": {},
+    "highlighted": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 2,
+      "font": "GillSans-SemiBold",
+      "isRevealOnCursorRange": true,
+      "color": "#24264F",
+      "backgroundColor": "#F4B80C"
+    },
+    "highlighted-left-colon": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#F4B80C"
+    },
+    "highlighted-right-colon": {
+      "regex": "(::)([^:]{1,})(::)",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#F4B80C"
+    },
+    "code-left-backtick": {
+      "color": "#546A90"
+    },
+    "code-right-backtick": {
+      "color": "#546A90"
+    },
+    "strikethrough": {
+      "regex": "(~~)([^~]{1,})(~~)",
+      "matchPosition": 2,
+      "strikethroughStyle": 1,
+      "color": "#546A90",
+      "isRevealOnCursorRange": true
+    },
+    "strikethrough-left-tilde": {
+      "regex": "(~~)([^~]{1,})(~~)",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "color": "#546A90",
+      "isRevealOnCursorRange": true
+    },
+    "strikethrough-right-tilde": {
+      "regex": "(~~)([^~]{1,})(~~)",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "color": "#546A90",
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true
+    },
+    "flagged-1": {
+      "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{3}\\h+.*)($|\\v)",
+      "matchPosition": 2,
+      "backgroundColor": "#F4225A",
+      "color": "#0c0a20",
+      "headIndent": 33
+    },
+    "flagged-2": {
+      "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{2}\\h+.*)($|\\v)",
+      "matchPosition": 2,
+      "backgroundColor": "#ff9b50",
+      "color": "#0c0a20",
+      "headIndent": 33
+    },
+    "flagged-3": {
+      "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{1}\\h+.*)($|\\v)",
+      "matchPosition": 2,
+      "backgroundColor": "#42c6ff",
+      "color": "#0c0a20",
+      "headIndent": 33
+    },
+  }
+}
