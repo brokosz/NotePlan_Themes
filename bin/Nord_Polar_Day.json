@@ -1,0 +1,525 @@
+{
+    "name": "Nord Polar Day",
+    "style": "Light",
+    "author": {
+        "name": "pan",
+        "email": "lipan.hello@icloud.com"
+    },
+    
+    "editor": {
+        "backgroundColor": "#FFFFFF",
+        "altBackgroundColor": "#D8DEE9",
+        "tintColor": "#5E81AC",
+        "tintColor2": "#81A1C1",
+        "textColor":"#434C5E",
+        "toolbarBackgroundColor": "#ECEFF4",
+        "toolbarIconColor": "#2E3440",
+        "menuItemColor": "#3B4252",
+        "shouldOverwriteFont": true
+    },
+    
+    "styles": {
+        
+        "body": {
+            "font": "AvenirNext-Regular",
+            "size": 16,
+            "color": "#4C566A",
+        },
+        
+        "title1": {
+            "color": "#4C566A",
+            "size": 28
+        },
+        
+        "title2": {
+            "color": "#4C566A",
+            "size": 24
+        },
+        
+        "title3": {
+            "color": "#4C566A",
+            "size": 20
+        },
+        "title4": {
+            "color": "#4C566A",
+            "size": 17
+        },
+        "title-mark1": {
+            "color": "#81A1C1",
+            "size": 28,
+            "font": "AvenirNext-DemiBold"
+        },
+        
+        "title-mark2": {
+           "color": "#81A1C1",
+           "size": 24,
+           "font": "AvenirNext-DemiBold"
+        },
+        
+        "title-mark3": {
+           "color": "#81A1C1",
+           "size": 20,
+           "font": "AvenirNext-DemiBold"
+        },
+		
+		"title-mark4": {
+           "color": "#81A1C1",
+           "size": 20,
+           "font": "AvenirNext-DemiBold"
+        },
+		
+		"bold": {
+            "font": "AvenirNext-Bold"
+        },
+        
+        "bold-left-mark": {
+            "color": "#81A1C1"
+        },
+        
+        "bold-right-mark": {
+            "color": "#81A1C1"
+        },
+        
+        "italic": {
+            "font": "AvenirNext-Italic"
+        },
+        
+        "italic-left-mark": {
+            "color": "#81A1C1"
+        },
+        
+        "italic-right-mark": {
+            "color": "#81A1C1"
+        },
+        
+        "boldItalic": {
+            "font": "AvenirNext-BoldItalic"
+        },
+        
+        "boldItalic-left-mark": {
+            "color": "#81A1C1"
+        },
+        
+        "boldItalic-right-mark": {
+            "color": "#81A1C1"
+        },
+
+        "code": {
+            "font": "Menlo-Regular",
+            "color": "#4C566A",
+			"backgroundColor":"#ECEFF4",
+            "size": 15
+        },
+
+        "code-left-backtick": {
+            "color": "#81A1C1"
+        },
+        
+        "code-right-backtick": {
+            "color": "#81A1C1"
+        },
+
+		"code-fence": {
+		   "theme": "github",
+		   "size": 15,
+		   "body": {
+		       "font": "Menlo-Regular",
+			   "backgroundColor":"#ECEFF4"
+		   },
+		   "language-specifier": {
+		       "font": "Menlo-Regular",
+			   "color": "#81A1C1"
+		   }
+		},
+
+        "checked": {
+            "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\] )(.*)",
+            "matchPosition": 0,        
+            "color": "#A3BE8C",
+            "headIndent": 33        
+        },
+        
+        "checked-canceled": {
+            "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
+            "matchPosition": 0,        
+            "color": "#D8DEE9",
+            "headIndent": 33,
+            "strikethroughStyle": 1
+        },
+        
+        "checked-scheduled": {
+            "regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\>\\] )(.*)",
+            "matchPosition": 0,        
+            "color": "#b48ead",
+            "headIndent": 33
+        },
+        
+        "todo": {
+            "font": "noteplanstate",
+            "color": "#81A1C1",
+            "headIndent": 33,
+            "size": 16
+        },
+        
+        "checked-todo-characters": {
+            "font": "noteplanstate",
+            "headIndent": 33,
+            "size": 16
+        },
+        
+        "special-char": {
+            "font": "Menlo-Regular",
+			"size": 16
+        },
+        
+        "tabbed": {
+            "headIndent": 43
+        },
+        
+        "quote-mark": {
+            "color": "#5E81AC",
+            "font": "noteplanstate",
+            "headIndent": 33,
+            "size": 16
+        },
+        
+        "quote-content": {
+            "color": "#7D889F",
+            "type": "italic",
+            "headIndent": 33
+        },
+                        
+        "schedule-to-date-link": {
+			"color": "#A3BE8C"
+		},
+        
+        "done-date": {
+			"color": "#A3BE8C"
+		},
+		"link":{},
+        "schedule-from-date-link": {
+			"color": "#b48ead"
+		},
+	    "note-title-link": {
+			"color": "#5E81AC"
+		},
+        "hashtag": {
+			"color":"#4C566A",
+			"backgroundColor": "#ECEFF4"
+		},
+        
+        "attag": {
+			"color":"#88C0D0"
+		},
+        
+        "phonenumber": {
+			"color": "#B48EAD"
+		},
+		
+		"note-title-link-left": {
+		   "regex": "(\\[{2})(.*?\\]*)(\\]{2})",
+		   "matchPosition": 1,
+			"color": "#ECEFF4"
+		},
+		"note-title-link-right": {
+		   "regex": "(\\[{2})(.*?\\]*)(\\]{2})",
+		   "matchPosition": 3,
+			"color": "#ECEFF4"
+		},
+		
+		"title-link-left-bracket": {
+	        "regex": "(\\[)([^\\[\\]]*)(\\])(\\()(\\S+|[^)]|[^ ]|)(\\))",
+	        "matchPosition": 1,
+			"color": "#ECEFF4"
+		},
+		"title-link-right-bracket": {
+	        "regex": "(\\[)([^\\[\\]]*)(\\])(\\()(\\S+|[^)]|[^ ]|)(\\))",
+	        "matchPosition": 3,
+			"color": "#ECEFF4"
+		},
+		"title-link-left-parenthes": {
+	        "regex": "(\\[)([^\\[\\]]*)(\\])(\\()(\\S+|[^)]|[^ ]|)(\\))",
+	        "matchPosition": 4,
+			"color": "#ECEFF4"
+		},
+		"title-link-right-parenthes": {
+	        "regex": "(\\[)([^\\[\\]]*)(\\])(\\()(\\S+|[^)]|[^ ]|)(\\))",
+	        "matchPosition": 6,
+			"color": "#ECEFF4"
+		},
+		
+		"flagged-1": {
+		    "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{1}\\h+.*)($|\\v)",
+		    "matchPosition": 2,
+		    "backgroundColor": "#E5F1FD",
+			"color":"#4C566A",
+		    "headIndent": 33
+		},
+		"flagged-2": {
+		    "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{2}\\h+.*)($|\\v)",
+		    "matchPosition": 2,
+		    "backgroundColor": "#F0F3DF",
+			"color":"#4C566A",
+		    "headIndent": 33
+		},
+		"flagged-3": {
+		    "regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{3}\\h+.*)($|\\v)",
+		    "matchPosition": 2,
+		    "backgroundColor": "#FCEBE5",
+			"color":"#4C566A",
+		    "headIndent": 33
+		},
+		
+		"strikethrough": {
+		    "regex": "(~~)([^~][^>]*)(~~)",
+		    "matchPosition": 2,
+		    "strikethroughStyle": 1,
+		    "isRevealOnCursorRange": true,
+		    "color": "#4C566A",
+		    "strikethroughColor": "#4C566A"
+		},
+		"strikethrough-left-tilde": {
+		    "regex": "(~~)([^~][^>]*)(~~)",
+		    "matchPosition": 1,
+		    "isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+		    "color": "#81A1C1"
+		},
+		"strikethrough-right-tilde": {
+		    "regex": "(~~)([^~][^>]*)(~~)",
+		    "matchPosition": 3,
+		    "isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+		    "color": "#81A1C1"
+		},
+		
+		"quick-link": {
+	    "regex": "(?<!\\{)(>>)([^><]+)(<<)(?<!\\})",
+	    "matchPosition": 2,
+		"color": "#A3BE8C",
+	    "urlPosition": 2,
+	    "type": "noteLink",
+	    "prefix": "noteplan://x-callback-url/openNote?noteTitle="
+		},
+		"quick-link-left": {
+		   "regex": "(?<!\\{)(>>)([^><]+)(<<)(?<!\\})",
+		   "matchPosition": 1,
+		   "color": "#ECEFF4"
+		},
+		"quick-link-right": {
+		   "regex": "(?<!\\{)(>>)([^><]+)(<<)(?<!\\})",
+		   "matchPosition": 3,
+		   "color": "#ECEFF4"
+		},
+		
+		"note-search-link":  {
+		    "regex": "(\\/{2})(\\S[^/]*\\S)(\\/{2})",
+		    "matchPosition": 2,
+			 "color": "#8FBCBB",
+		    "urlPosition": 2,
+		    "type": "link",
+		    "prefix": "noteplan://x-callback-url/search?text="
+		},
+		"note-search-link-left":  {
+		   "regex": "(\\/{2})(\\S[^/]*\\S)(\\/{2})",
+		   "matchPosition": 1,
+		   "color": "#ECEFF4"
+		},
+		"note-search-link-right":  {
+		   "regex": "(\\/{2})(\\S[^/]*\\S)(\\/{2})",
+		   "matchPosition": 3,
+		   "color": "#ECEFF4"
+		},
+		
+        ":highlighted:": {
+            "regex": "(?<!`)(:{2})([^:]{1,})(:{2})(?!`)",
+            "matchPosition": 2,
+			"isRevealOnCursorRange": true,
+            "color": "#BF616A",
+            "backgroundColor": "#EBCB8B"
+        },
+	    ":highlighted-left-mark:": {
+            "regex": "(?<!`)(:{2})([^:]{1,})(:{2})(?!`)",
+            "matchPosition": 1,
+            "color": "#D08770",
+			"isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+            "backgroundColor": "#EBCB8B"
+        },
+        ":highlighted-right-mark:": {
+            "regex": "(?<!`)(:{2})([^:]{1,})(:{2})(?!`)",
+            "matchPosition": 3,
+            "color": "#D08770",
+			"isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+            "backgroundColor": "#EBCB8B"
+        },		
+        "=highlighted=": {
+            "regex": "(?<!`|[{])(={2})([^=]{1,})(={2})(?!`|[}])",
+            "matchPosition": 2,
+			"isRevealOnCursorRange": true,
+            "color": "#BF616A",
+            "backgroundColor": "#EBCB8B"
+        },		
+	    "=highlighted-left-mark=": {
+            "regex": "(?<!`|[{])(={2})([^=]{1,})(={2})(?!`|[}])",
+            "matchPosition": 1,
+            "color": "#D08770",
+			"isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+            "backgroundColor": "#EBCB8B"
+        },
+        "=highlighted-right-mark=": {
+            "regex": "(?<!`|[{])(={2})([^=]{1,})(={2})(?!`|[}])",
+            "matchPosition": 3,
+            "color": "#D08770",
+			"isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+            "backgroundColor": "#EBCB8B"
+        },		
+        "{highlighted}": {
+            "regex": "(?<!`)(\\{={2})([^{=}]{1,})(={2}\\})(?!`)",
+            "matchPosition": 2,
+			"isRevealOnCursorRange": true,
+            "color": "#BF616A",
+            "backgroundColor": "#EBCB8B"
+        },		
+	    "{highlighted-left-mark}": {
+            "regex": "(?<!`)(\\{={2})([^{=}]{1,})(={2}\\})(?!`)",
+            "matchPosition": 1,
+            "color": "#D08770",
+			"isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+            "backgroundColor": "#EBCB8B"
+        },
+        "{highlighted-right-mark}": {
+            "regex": "(?<!`)(\\{={2})([^{=}]{1,})(={2}\\})(?!`)",
+            "matchPosition": 3,
+            "color": "#D08770",
+			"isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+            "backgroundColor": "#EBCB8B"
+        },
+		
+		"Addition": {
+		    "regex": "(?<!`)(\\{\\+\\+)(.*)(\\+\\+\\})(?!`)",
+		    "matchPosition": 2,
+		    "isRevealOnCursorRange": true,
+		    "color": "#A3BE8C",
+			"underlineStyle": 1,
+		},
+		"Addition-left": {
+		    "regex": "(?<!`)(\\{\\+\\+)(.*)(\\+\\+\\})(?!`)",
+		    "matchPosition": 1,
+		    "isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+		    "color": "#A3BE8C"
+		},
+		"Addition-right": {
+		    "regex": "(?<!`)(\\{\\+\\+)(.*)(\\+\\+\\})(?!`)",
+		    "matchPosition": 3,
+		    "isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+		    "color": "#A3BE8C"
+		},
+		
+		"Deletion": {
+		    "regex": "(?<!`)(\\{--)(.*)(--\\})(?!`)",
+		    "matchPosition": 2,
+		    "isRevealOnCursorRange": true,
+		    "color": "#BF616A",
+			"strikethroughColor": "#BF616A",
+			"strikethroughStyle": 1,
+		},
+		"Deletion-left": {
+		    "regex": "(?<!`)(\\{--)(.*)(--\\})(?!`)",
+		    "matchPosition": 1,
+		    "isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+		    "color": "#BF616A"
+		},
+		"Deletion-right": {
+		    "regex": "(?<!`)(\\{--)(.*)(--\\})(?!`)",
+		    "matchPosition": 3,
+		    "isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+		    "color": "#BF616A"
+		},
+		
+		"Substitution-before": {
+		    "regex": "(?<!`)(\\{~~)(.*)(~>)(.*)(~~\\})(?!`)",
+		    "matchPosition": 2,
+		    "isRevealOnCursorRange": true,
+		    "color": "#D08770",
+			"strikethroughColor": "#D08770",
+			"strikethroughStyle": 1,
+		},
+		"Substitution-after": {
+		    "regex": "(?<!`)(\\{~~)(.*)(~>)(.*)(~~\\})(?!`)",
+		    "matchPosition": 4,
+		    "isRevealOnCursorRange": true,
+		    "color": "#D08770",
+				"underlineStyle": 1,
+		},
+		"Substitution-left": {
+		    "regex": "(?<!`)(\\{~~)(.*)(~>)(.*)(~~\\})(?!`)",
+		    "matchPosition": 1,
+		    "isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+		    "color": "#D08770"
+		},
+		"Substitution-middle": {
+		    "regex": "(?<!`)(\\{~~)(.*)(~>)(.*)(~~\\})(?!`)",
+		    "matchPosition": 3,
+		    "isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+		    "color": "#D08770"
+		},
+		"Substitution-right": {
+		    "regex": "(?<!`)(\\{~~)(.*)(~>)(.*)(~~\\})(?!`)",
+		    "matchPosition": 5,
+		    "isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+		    "color": "#D08770"
+		},
+		
+		"Comment": {
+		    "regex": "(?<!`)(\\{>>)(.*)(<<\\})(?!`)",
+		    "matchPosition": 2,
+		    "isRevealOnCursorRange": true,
+		    "color": "#8FBCBB",
+			"underlineStyle":8193
+		},
+		"Comment-left": {
+		    "regex": "(?<!`)(\\{>>)(.*)(<<\\})(?!`)",
+		    "matchPosition": 1,
+		    "isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+		    "color": "#8FBCBB"
+		},
+		"Comment-right": {
+		    "regex": "(?<!`)(\\{>>)(.*)(<<\\})(?!`)",
+		    "matchPosition": 3,
+		    "isMarkdownCharacter": true,
+		    "isHiddenWithoutCursor": true,
+		    "isRevealOnCursorRange": true,
+		    "color": "#8FBCBB"
+		}
+    }
+}
