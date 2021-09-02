@@ -2,7 +2,7 @@
     "name": "Nandor",
     "style": "Dark",
     "author": {
-        "name": "Robert Salsbury",
+        "name": "Robert Salsbury (2021-08-03)",
         "email": "robert.salsbury@gmail.com"
     },
 
@@ -46,8 +46,17 @@
             "size": 16,
             "font": "AvenirNext-Regular",
             "font-weight": "regular",
+            "underlineStyle": 1,
+        },
+    
+        "title4": {
+            "color": "#a980e7",
+            "size": 16,
+            "font": "AvenirNext-Regular",
+            "font-weight": "regular",
         },
         
+    
         "title-mark1": {
             "color": "#a980e7",
             "size": 24,
@@ -65,6 +74,13 @@
            "size": 16,
            "font": "AvenirNext-DemiBold"
         },
+
+        "title-mark4": {
+            "color": "#a980e7",
+            "size": 16,
+            "font": "AvenirNext-DemiBold"
+        },
+
 
         "bold": {
             "color": "#ffaf61",
