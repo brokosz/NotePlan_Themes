@@ -87,6 +87,12 @@ Please read [contributing.md](contributing.md) for instructions on how to submit
 
 ![](img/nord.png)
 
+
+### Nord Polar
+
+![](img/nordpolarday.png)
+![](img/nordpolarnight.png)
+
 ### Noteworthy (Mobile)
 
 ![](img/noteworthy.png)
