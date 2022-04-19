@@ -34,6 +34,10 @@
       "color": "#ffffff",
       "size": 20
     },
+    "title4": {
+      "color": "#ffffff",
+      "size": 18
+    },
     "title-mark1": {
       "color": "#00a6ce",
       "size": 28
@@ -45,6 +49,10 @@
     "title-mark3": {
       "color": "#00a6ce",
       "size": 20
+    },
+    "title-mark4": {
+      "color": "#00a6ce",
+      "size": 18
     },
     "bold": {
       "color": "#00a6ce",
@@ -125,12 +133,12 @@
     "hashtag": {},
     "attag": {},
     "phonenumber": {},
-    "highlighted": {
+    "highlighted-colon": {
       "regex": "(::)([^:]{1,})(::)",
       "matchPosition": 2,
       "isRevealOnCursorRange": true,
-      "color": "212f3e",
-      "backgroundColor": "#00a6ce"
+      "color": "#ffffff",
+      "backgroundColor": "#21546A"
     },
     "highlighted-left-colon": {
       "regex": "(::)([^:]{1,})(::)",
@@ -138,7 +146,7 @@
       "isMarkdownCharacter": true,
       "isHiddenWithoutCursor": true,
       "isRevealOnCursorRange": true,
-      "color": "#00a6ce"
+      "color": "#21546A"
     },
     "highlighted-right-colon": {
       "regex": "(::)([^:]{1,})(::)",
@@ -146,7 +154,30 @@
       "isMarkdownCharacter": true,
       "isHiddenWithoutCursor": true,
       "isRevealOnCursorRange": true,
-      "color": "#00a6ce"
+      "color": "#21546A"
+    },
+     "highlighted-equal": {
+      "regex": "(==)([^=]{1,})(==)",
+      "matchPosition": 2,
+      "isRevealOnCursorRange": true,
+      "color": "#ffffff",
+      "backgroundColor": "#21546A"
+    },
+    "highlighted-left-equal": {
+      "regex": "(==)([^=]{1,})(==)",
+      "matchPosition": 1,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#21546A"
+    },
+    "highlighted-right-equal": {
+      "regex": "(==)([^=]{1,})(==)",
+      "matchPosition": 3,
+      "isMarkdownCharacter": true,
+      "isHiddenWithoutCursor": true,
+      "isRevealOnCursorRange": true,
+      "color": "#21546A"
     },
     "code-left-backtick": {
       "color": "#00a6ce"
