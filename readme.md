@@ -102,6 +102,10 @@ Please read [contributing.md](contributing.md) for instructions on how to submit
 ![](img/noteworthy-nord.png)
 ![](img/noteworthy-nord-dark.png)
 
+### NPEdit
+
+![](img/NPEdit.png)
+
 ### Outrun
 
 ![](img/outrun.png)

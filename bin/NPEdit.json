@@ -1,0 +1,327 @@
+{
+	"name": "NPEdit",
+	"style": "Dark",
+	"author": {
+		"name": "atlgc",
+	},
+
+	"editor": {
+		"backgroundColor": "#141414",
+		"textColor": "#6a91da",
+		"tintColor": "#d87001",
+		"tintColor2": "#d87001",
+		"toolbarBackgroundColor": "#2B3940",
+		"toolbarIconColor": "#c5c5c0",
+		"menuItemColor": "#c5c5c0",
+		"shouldOverwriteFont": false,
+		"font": "JetBrainsMono-Regular",
+	},
+
+	"styles": {
+		"body": {
+			"font": "JetBrainsMono-Regular",
+			"size": 16,
+			"color": "#6a91da"
+		},
+
+		"title1": {
+			"color": "#ffffff",
+			"size": 32,
+			"font": "JetBrainsMono-ExtraBold"
+		},
+
+		"title2": {
+			"color": "#a5d8fb",
+			"size": 24,
+			"font": "JetBrainsMono-Bold"
+		},
+
+		"title3": {
+			"color": "#a5d8fb",
+			"size": 20,
+			"font": "JetBrainsMono-SemiBold"
+		},
+
+		"title-mark1": {
+			"color": "#6696CBFE",
+			"size": 28,
+			"font": "JetBrainsMono-Bold"
+		},
+
+		"title-mark2": {
+			"color": "#6696CBFE",
+			"size": 24,
+			"font": "JetBrainsMono-Bold"
+		},
+
+		"title-mark3": {
+			"color": "#6696CBFE",
+			"size": 20,
+			"font": "JetBrainsMono-Bold"
+		},
+
+		"bold": {
+			"_color": "#CC6666",
+			"font": "JetBrainsMono-ExtraBold"
+		},
+
+		"bold-left-mark": {
+			"color": "#66CC6666"
+		},
+
+		"bold-right-mark": {
+			"color": "#66CC6666"
+		},
+
+		"italic": {
+			"_color": "#96CBFE",
+			"font": "JetBrainsMono-Italic"
+		},
+
+		"italic-left-mark": {
+			"color": "#6696CBFE"
+		},
+
+		"italic-right-mark": {
+			"color": "#6696CBFE"
+		},
+
+		"boldItalic": {
+			"font": "JetBrainsMono-BoldItalic"
+		},
+
+		"boldItalic-left-mark": {
+			"color": "#66CC6666"
+		},
+
+		"boldItalic-right-mark": {
+			"color": "#66CC6666"
+		},
+
+		"code": {
+			"font": "JetBrainsMono-Regular",
+			"color": "#CC6666",
+			"size": 15
+		},
+
+		"code-left-backtick": {
+			"color": "#66CC6666"
+		},
+
+		"code-right-backtick": {
+			"color": "#66CC6666"
+		},
+
+		"checked-todo-characters": {
+			"font": "noteplanstate",
+			"headIndent": 33,
+			"size": 16
+		},
+
+		"checked-completed-mark": {
+			"regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\] )",
+			"matchPosition": 0,
+			"color": "#575757",
+			"headIndent": 33
+		},
+
+		"checked-completed-content": {
+			"regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\] )(.*)",
+			"matchPosition": 3,
+			"color": "#575757",
+			"headIndent": 33
+		},
+
+		"checked-scheduled": {
+			"regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\>\\] )",
+			"matchPosition": 0,
+			"color": "#5fff5f",
+			"headIndent": 33
+		},
+
+		"checked-canceled": {
+			"regex": "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
+			"matchPosition": 0,
+			"color": "#575757",
+			"headIndent": 33
+		},
+
+
+		"checked": {
+			"headIndent": 33
+		},
+
+		"todo": {
+			"font": "noteplanstate",
+			"color": "#e58540",
+			"headIndent": 33,
+			"size": 16
+		},
+
+
+		"special-char": {
+			"font": "JetBrainsMono-Regular"
+		},
+
+		"tabbed": {
+			"headIndent": 43
+		},
+
+		"quote-mark": {
+			"color": "#9DC777",
+			"font": "noteplanstate",
+			"headIndent": 33,
+			"size": 16
+		},
+
+		"quote-content": {
+			"color": "#c5c5c0",
+			"type": "italic",
+			"headIndent": 33
+		},
+
+		"highlighted": {
+			"regex": "(::)([^:]{1,})(::)",
+			"matchPosition": 2,
+			"isRevealOnCursorRange": true,
+			"font": "JetBrainsMono-BoldItalic",
+			"backgroundColor": "#fffa00",
+			"color": "#000000",
+		},
+
+		"highlighted-left-colon": {
+			"regex": "(::)([^:]{1,})(::)",
+			"matchPosition": 1,
+			"isMarkdownCharacter": true,
+			"isHiddenWithoutCursor": true,
+			"isRevealOnCursorRange": true,
+			"backgroundColor": "#ffffff"
+		},
+
+		"highlighted-right-colon": {
+			"regex": "(::)([^:]{1,})(::)",
+			"matchPosition": 3,
+			"isMarkdownCharacter": true,
+			"isHiddenWithoutCursor": true,
+			"isRevealOnCursorRange": true,
+			"backgroundColor": "#ffffff"
+		},
+
+		"flagged-1": {
+			"regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)(\\!{1}\\h+.*))($|\\v)",
+			"matchPosition": 5,
+			"backgroundColor": "#22D0021B",
+			"color": "ffffff",
+			"headIndent": 33
+		},
+
+		"flagged-2": {
+			"regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)(\\!{2}\\h+.*))($|\\v)",
+			"matchPosition": 5,
+			"backgroundColor": "#55D0021B",
+			"color": "ffffff",
+			"headIndent": 33
+		},
+
+		"flagged-3": {
+			"regex": "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)(\\!{3}\\h+.*))($|\\v)",
+			"matchPosition": 5,
+			"backgroundColor": "#AAD0021B",
+			"color": "ffffff",
+			"headIndent": 33
+		},
+
+		"strikethrough": {
+			"regex": "(~~)([^:]{1,})(~~)",
+			"matchPosition": 2,
+			"isRevealOnCursorRange": true,
+			"color": "#AAc5c5c0",
+			"strikethroughStyle": 1,
+			"strikethroughColor": "#AAc5c5c0"
+		},
+
+		"strikethrough-left-tildes": {
+			"regex": "(~~)([^:]{1,})(~~)",
+			"matchPosition": 1,
+			"isMarkdownCharacter": true,
+			"isHiddenWithoutCursor": true,
+			"isRevealOnCursorRange": true,
+			"color": "#66c5c5c0"
+		},
+
+		"strikethrough-right-tildes": {
+			"regex": "(~~)([^:]{1,})(~~)",
+			"matchPosition": 3,
+			"isMarkdownCharacter": true,
+			"isHiddenWithoutCursor": true,
+			"isRevealOnCursorRange": true,
+			"color": "#66c5c5c0"
+		},
+
+		"wiki-link": {
+			"regex": "\\[\\[((((?!\\[\\[)(?!\\]\\]).))*)\\]\\]",
+			"matchPosition": 1,
+			"isRevealOnCursorRange": true,
+			"color": "#F9544E"
+		},
+		"wiki-link-tag-open": {
+			"regex": "(\\[\\[)((((?!\\[\\[)(?!\\]\\]).))*)\\]\\]",
+			"matchPosition": 1,
+			"color": "#555555",
+			"isMarkdownCharacter": true,
+			"isHiddenWithoutCursor": true,
+			"isRevealOnCursorRange": true
+		},
+		"wiki-link-tag-close": {
+			"regex": "(\\]\\])",
+			"matchPosition": 1,
+			"color": "#555555",
+			"isMarkdownCharacter": true,
+			"isHiddenWithoutCursor": true,
+			"isRevealOnCursorRange": true
+		},
+
+		"link": {
+			"backgroundColor": "#3d3d3d",
+		},
+
+		"note-title-link": {
+			"backgroundColor": "#3d3d3d",
+		},
+
+
+		"schedule-to-date-link": {
+			"backgroundColor": "#481d00",
+		},
+
+		"schedule-from-date-link": {
+			"backgroundColor": "#481d00",
+		},
+
+
+		"hashtag": {
+			"type": "",
+			"backgroundColor": "#180082",
+
+		},
+
+		"attag": {
+			"type": "",
+			"backgroundColor": "#180082",
+		},
+
+		"Times": {
+			"regex": "(\\d{1,2}[\\:]\\d{1,2}|[\\:]\\d{1,2})|(\\d{1,2}[h|H|m|M][r|R])|(\\d{1,2}[a|p|A|P][m|M])|(\\d{1,2}[H|h|m|M])",
+			"matchPosition": 0,
+			"isRevealOnCursorRange": true,
+			"color": "#d87001"
+		},
+		"Timeblock-char": {
+			"regex": "(?<!\\S)(\\d.*\\s([a|A][m|M]|[p|P][m|M])(\\n|\\s))",
+			"matchPosition": 1,
+			"color": "#d87001"
+		},
+
+		"phonenumber": {}
+	}
+}
