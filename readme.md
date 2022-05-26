@@ -21,6 +21,7 @@ You can add additional highlighting, functionality, and customize other theme co
 -   [Input font for Soft Contrast](https://input.djr.com/download/)
 -   [Lato for Day One](https://www.1001fonts.com/lato-font.html)
 -   [Vulf Mono for Chalk and Coal and Gryffindor](https://ohnotype.co/fonts/vulf)
+-   [JetBrains Mono for NPEdit](https://www.jetbrains.com/lp/mono/)
 
 ## Contributing
 
