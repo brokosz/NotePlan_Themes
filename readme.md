@@ -28,6 +28,10 @@ Please read [contributing.md](contributing.md) for instructions on how to submit
 
 ## Available Themes
 
+### Apple Spark
+
+![](img/applespark.png)
+
 ### Atom
 
 ![](img/atom.png)

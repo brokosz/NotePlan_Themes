@@ -1,0 +1,331 @@
+{
+  "styles" : {
+    "NoteLinks-main-cancelled" : {
+      "color" : "#DA5100"
+    },
+    "note-title-link" : {
+
+    },
+    "code" : {
+      "size" : 15,
+      "backgroundColor" : "#33D4BFFF",
+      "font" : "Menlo-Regular",
+      "color" : "#D4BFFF"
+    },
+    "schedule-to-date-link" : {
+
+    },
+    "highlighted-right-colon" : {
+      "matchPosition" : 3,
+      "color" : "#AA45A2E5",
+      "isMarkdownCharacter" : true,
+      "isRevealOnCursorRange" : true,
+      "isHiddenWithoutCursor" : true,
+      "regex" : "(::)([^:]{1,})(::)",
+      "backgroundColor" : "#7745A2E5"
+    },
+    "underline-left-tilde" : {
+      "isRevealOnCursorRange" : true,
+      "isHiddenWithoutCursor" : true,
+      "isMarkdownCharacter" : true,
+      "matchPosition" : 2,
+      "regex" : "(^|[\\W_])(?:(?!\\1)|(?=^))(\\~|_)(?=\\S)((?:(?!\\2).)*?\\S)(\\2)(?!\\2)(?=[\\W_]|$)",
+      "color" : "#7A219E"
+    },
+    "underline" : {
+      "isRevealOnCursorRange" : true,
+      "underlineStyle" : 2,
+      "matchPosition" : 3,
+      "regex" : "(^|[\\W_])(?:(?!\\1)|(?=^))(\\~|_)(?=\\S)((?:(?!\\2).)*?\\S)(\\2)(?!\\2)(?=[\\W_]|$)",
+      "underlineColor" : "#F5EC00"
+    },
+    "body" : {
+      "font" : ".AppleSystemUIFont",
+      "size" : 16,
+      "color" : "#EAEAEA"
+    },
+    "italic" : {
+      "color" : "#FFFFFF",
+      "font" : ".AppleSystemUIFontItalic"
+    },
+    "title-mark1" : {
+      "color" : "#33FFA759",
+      "size" : 28,
+      "font" : "AvenirNext-DemiBold"
+    },
+    "eventID" : {
+      "isRevealOnCursorRange" : true,
+      "isHiddenWithoutCursor" : true,
+      "matchPosition" : 1,
+      "regex" : "(event:[A-F0-9-]{36,37})",
+      "color" : "#444444"
+    },
+    "highlighted-colons" : {
+      "isRevealOnCursorRange" : true,
+      "backgroundColor" : "#008CB4",
+      "matchPosition" : 2,
+      "regex" : "(::)([^:]{1,})(::)"
+    },
+    "done-date" : {
+
+    },
+    "link" : {
+
+    },
+    "highlighted-left-colon" : {
+      "matchPosition" : 1,
+      "color" : "#AA45A2E5",
+      "isMarkdownCharacter" : true,
+      "isRevealOnCursorRange" : true,
+      "isHiddenWithoutCursor" : true,
+      "regex" : "(::)([^:]{1,})(::)",
+      "backgroundColor" : "#7745A2E5"
+    },
+    "NoteLinks-left-brackets" : {
+      "isRevealOnCursorRange" : true,
+      "isHiddenWithoutCursor" : true,
+      "isMarkdownCharacter" : true,
+      "matchPosition" : 1,
+      "regex" : "(\\[\\[)(.*?)(\\]\\])",
+      "color" : "#DA5100"
+    },
+    "strikethrough-right-tilde" : {
+      "isRevealOnCursorRange" : true,
+      "isHiddenWithoutCursor" : true,
+      "isMarkdownCharacter" : true,
+      "matchPosition" : 4,
+      "regex" : "(^|[\\W_])(?:(?!\\1)|(?=^))(\\~|_)\\2(?=\\S)(.*?\\S)(\\2\\2)(?!\\2)(?=[\\W_]|$)",
+      "color" : "#FFFFFF"
+    },
+    "hashtag" : {
+
+    },
+    "NoteLinks-main-done" : {
+      "color" : "#DA5100",
+      "isRevealOnCursorRange" : true,
+      "isMarkdownCharacter" : true,
+      "font" : "noteplanstate",
+      "regex" : "(x\\[\\[)(.*?)(\\]\\])",
+      "matchPosition" : 1
+    },
+    "code-left-backtick" : {
+      "color" : "#66D4BFFF",
+      "backgroundColor" : "#33D4BFFF"
+    },
+    "phonenumber" : {
+
+    },
+    "NoteLinks-right-brackets" : {
+      "isRevealOnCursorRange" : true,
+      "isHiddenWithoutCursor" : true,
+      "isMarkdownCharacter" : true,
+      "matchPosition" : 3,
+      "regex" : "(\\[\\[)(.*?)(\\]\\])",
+      "color" : "#DA5100"
+    },
+    "underline-right-tilde" : {
+      "isRevealOnCursorRange" : true,
+      "isHiddenWithoutCursor" : true,
+      "isMarkdownCharacter" : true,
+      "matchPosition" : 4,
+      "regex" : "(^|[\\W_])(?:(?!\\1)|(?=^))(\\~|_)(?=\\S)((?:(?!\\2).)*?\\S)(\\2)(?!\\2)(?=[\\W_]|$)",
+      "color" : "#44CBCCC6"
+    },
+    "title-mark2" : {
+      "color" : "#33FFA759",
+      "size" : 24,
+      "font" : "AvenirNext-DemiBold"
+    },
+    "NoteLinks-main" : {
+      "color" : "#C5487A",
+      "backgroundColor" : "#22C5487A"
+    },
+    "URL-links-right-bracket" : {
+      "isRevealOnCursorRange" : true,
+      "isHiddenWithoutCursor" : true,
+      "isMarkdownCharacter" : true,
+      "matchPosition" : 3,
+      "regex" : "(\\[)(.*?)(\\])(\\(.*\\))",
+      "color" : "#DA5100"
+    },
+    "special-char" : {
+      "font" : "Menlo-Regular"
+    },
+    "code-right-backtick" : {
+      "color" : "#66D4BFFF",
+      "backgroundColor" : "#33D4BFFF"
+    },
+    "bold-left-mark" : {
+      "color" : "#33BAE67E"
+    },
+    "title-mark3" : {
+      "color" : "#33FFA759",
+      "size" : 20,
+      "font" : "AvenirNext-DemiBold"
+    },
+    "italic-right-mark" : {
+      "color" : "#3395E6CB"
+    },
+    "bold-right-mark" : {
+      "color" : "#33BAE67E"
+    },
+    "attag" : {
+
+    },
+    "checked" : {
+      "regex" : "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\] )(.*)",
+      "matchPosition" : 0,
+      "color" : "#669D34"
+    },
+    "bold" : {
+      "color" : "#FFFFFF",
+      "font" : ".AppleSystemUIFontBold"
+    },
+    "title2" : {
+      "color" : "#DA5100",
+      "size" : 24,
+      "font" : ".AppleSystemUIFontBold"
+    },
+    "title-mark4" : {
+      "color" : "#33FFA759",
+      "size" : 18,
+      "font" : ".AppleSystemUIFont"
+    },
+    "title4" : {
+      "size" : 18,
+      "underlineStyle" : 1,
+      "font" : ".AppleSystemUIFont",
+      "color" : "#D38301"
+    },
+    "deadline" : {
+      "regex" : "\\h+!(\\d{4}-\\d{2}-\\d{2})\\h*",
+      "color" : "#E22400",
+      "matchPosition" : 1
+    },
+    "boldItalic-right-mark" : {
+      "color" : "#33FFE67E"
+    },
+    "checked-canceled" : {
+      "strikethroughStyle" : 1,
+      "matchPosition" : 0,
+      "regex" : "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
+      "color" : "#E22400"
+    },
+    "quote-content" : {
+      "color" : "#C2C2C2",
+      "type" : "italic",
+      "headIndent" : 33
+    },
+    "tabbed" : {
+      "headIndent" : 43
+    },
+    "boldItalic" : {
+      "type" : "bolditalic",
+      "font" : ".AppleSystemUIFontBoldItalic"
+    },
+    "URL-links-left-bracket" : {
+      "isRevealOnCursorRange" : true,
+      "isHiddenWithoutCursor" : true,
+      "isMarkdownCharacter" : true,
+      "matchPosition" : 1,
+      "regex" : "(\\[)(.*?)(\\])(\\(.*\\))",
+      "color" : "#DA5100"
+    },
+    "flagged-1" : {
+      "regex" : "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{1}\\h+.*)($|\\v)",
+      "matchPosition" : 2,
+      "backgroundColor" : "#7A219E"
+    },
+    "italic-left-mark" : {
+      "color" : "#3395E6CB"
+    },
+    "quote-mark" : {
+      "size" : 16,
+      "font" : "noteplanstate",
+      "headIndent" : 33,
+      "color" : "#008CB4"
+    },
+    "strikethrough-left-tilde" : {
+      "isRevealOnCursorRange" : true,
+      "isHiddenWithoutCursor" : true,
+      "isMarkdownCharacter" : true,
+      "matchPosition" : 2,
+      "regex" : "(^|[\\W_])(?:(?!\\1)|(?=^))((\\~|_)\\3)(?=\\S)(.*?\\S)(\\3\\3)(?!\\2)(?=[\\W_]|$)",
+      "color" : "#FFFFFF"
+    },
+    "flagged-2" : {
+      "regex" : "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{2}\\h+.*)($|\\v)",
+      "matchPosition" : 2,
+      "backgroundColor" : "#99244F"
+    },
+    "todo" : {
+      "size" : 16,
+      "font" : "noteplanstate",
+      "headIndent" : 33,
+      "color" : "#008CB4"
+    },
+    "flagged-3" : {
+      "regex" : "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{3}\\h+.*)($|\\v)",
+      "matchPosition" : 2,
+      "backgroundColor" : "#E22400"
+    },
+    "checked-todo-characters" : {
+      "font" : "noteplanstate",
+      "headIndent" : 33,
+      "size" : 16
+    },
+    "checked-scheduled" : {
+      "regex" : "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\>\\] )(.*)",
+      "matchPosition" : 0,
+      "color" : "#7A219E"
+    },
+    "strikethrough" : {
+      "color" : "#AACBCCC6",
+      "isRevealOnCursorRange" : true,
+      "strikethroughColor" : "#CBCCC6",
+      "matchPosition" : 4,
+      "regex" : "(^|[\\W_])(?:(?!\\1)|(?=^))((\\~|_)\\3)(?=\\S)(.*?\\S)(\\3\\3)(?!\\2)(?=[\\W_]|$)",
+      "strikethroughStyle" : 1
+    },
+    "schedule-from-date-link" : {
+
+    },
+    "boldItalic-left-mark" : {
+      "color" : "#33FFE67E"
+    },
+    "title1" : {
+      "color" : "#DA5100",
+      "size" : 28,
+      "font" : ".AppleSystemUIFontHeavy"
+    },
+    "highlighted" : {
+      "isRevealOnCursorRange" : true,
+      "backgroundColor" : "#7745A2E5",
+      "matchPosition" : 2,
+      "regex" : "(::)([^:]{1,})(::)"
+    },
+    "title3" : {
+      "color" : "#DA5100",
+      "size" : 20,
+      "font" : ".AppleSystemUIFontMedium"
+    }
+  },
+  "style" : "Dark",
+  "author" : {
+    "name" : "@clayrussell",
+    "email" : "hello@noteplan.co"
+  },
+  "name" : "Apple Spark",
+  "editor" : {
+    "toolbarBackgroundColor" : "#342F33",
+    "tintColor" : "#F5EC00",
+    "timeBlockColor" : "#DA5100",
+    "menuItemColor" : "#FFFFFF",
+    "toolbarIconColor" : "#FFFFFF",
+    "tintColor2" : "#008CB4",
+    "altBackgroundColor" : "#000000",
+    "shouldOverwriteFont" : false,
+    "backgroundColor" : "#000000",
+    "textColor" : "#EAEAEA"
+  }
+}
