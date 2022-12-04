@@ -1,7 +1,7 @@
 {
   "styles" : {
     "NoteLinks-main-cancelled" : {
-      "color" : "#DA5100"
+      "color" : "#008CB4"
     },
     "note-title-link" : {
 
@@ -21,8 +21,8 @@
       "isMarkdownCharacter" : true,
       "isRevealOnCursorRange" : true,
       "isHiddenWithoutCursor" : true,
-      "regex" : "(::)([^:]{1,})(::)",
-      "backgroundColor" : "#7745A2E5"
+      "backgroundColor" : "#7745A2E5",
+      "regex" : "(::)([^:]{1,})(::)"
     },
     "underline-left-tilde" : {
       "isRevealOnCursorRange" : true,
@@ -42,14 +42,14 @@
     "body" : {
       "font" : ".AppleSystemUIFont",
       "size" : 16,
-      "color" : "#EAEAEA"
+      "color" : "#FFFFFF"
     },
     "italic" : {
       "color" : "#FFFFFF",
       "font" : ".AppleSystemUIFontItalic"
     },
     "title-mark1" : {
-      "color" : "#33FFA759",
+      "color" : "#008CB4",
       "size" : 28,
       "font" : "AvenirNext-DemiBold"
     },
@@ -78,8 +78,8 @@
       "isMarkdownCharacter" : true,
       "isRevealOnCursorRange" : true,
       "isHiddenWithoutCursor" : true,
-      "regex" : "(::)([^:]{1,})(::)",
-      "backgroundColor" : "#7745A2E5"
+      "backgroundColor" : "#7745A2E5",
+      "regex" : "(::)([^:]{1,})(::)"
     },
     "NoteLinks-left-brackets" : {
       "isRevealOnCursorRange" : true,
@@ -87,7 +87,7 @@
       "isMarkdownCharacter" : true,
       "matchPosition" : 1,
       "regex" : "(\\[\\[)(.*?)(\\]\\])",
-      "color" : "#DA5100"
+      "color" : "#008CB4"
     },
     "strikethrough-right-tilde" : {
       "isRevealOnCursorRange" : true,
@@ -101,12 +101,12 @@
 
     },
     "NoteLinks-main-done" : {
-      "color" : "#DA5100",
+      "color" : "#008CB4",
       "isRevealOnCursorRange" : true,
       "isMarkdownCharacter" : true,
       "font" : "noteplanstate",
-      "regex" : "(x\\[\\[)(.*?)(\\]\\])",
-      "matchPosition" : 1
+      "matchPosition" : 1,
+      "regex" : "(x\\[\\[)(.*?)(\\]\\])"
     },
     "code-left-backtick" : {
       "color" : "#66D4BFFF",
@@ -121,7 +121,7 @@
       "isMarkdownCharacter" : true,
       "matchPosition" : 3,
       "regex" : "(\\[\\[)(.*?)(\\]\\])",
-      "color" : "#DA5100"
+      "color" : "#008CB4"
     },
     "underline-right-tilde" : {
       "isRevealOnCursorRange" : true,
@@ -132,7 +132,7 @@
       "color" : "#44CBCCC6"
     },
     "title-mark2" : {
-      "color" : "#33FFA759",
+      "color" : "#008CB4",
       "size" : 24,
       "font" : "AvenirNext-DemiBold"
     },
@@ -146,7 +146,7 @@
       "isMarkdownCharacter" : true,
       "matchPosition" : 3,
       "regex" : "(\\[)(.*?)(\\])(\\(.*\\))",
-      "color" : "#DA5100"
+      "color" : "#008CB4"
     },
     "special-char" : {
       "font" : "Menlo-Regular"
@@ -159,7 +159,7 @@
       "color" : "#33BAE67E"
     },
     "title-mark3" : {
-      "color" : "#33FFA759",
+      "color" : "#008CB4",
       "size" : 20,
       "font" : "AvenirNext-DemiBold"
     },
@@ -177,6 +177,14 @@
       "matchPosition" : 0,
       "color" : "#669D34"
     },
+    "title-in-frontmatter" : {
+      "size" : 16,
+      "_color" : "#CC6666",
+      "font" : ".AppleSystemUIFont",
+      "matchPosition" : 1,
+      "regex" : "^[tT]itle:\\s+(.*)",
+      "color" : "#008CB4"
+    },
     "bold" : {
       "color" : "#FFFFFF",
       "font" : ".AppleSystemUIFontBold"
@@ -187,7 +195,7 @@
       "font" : ".AppleSystemUIFontBold"
     },
     "title-mark4" : {
-      "color" : "#33FFA759",
+      "color" : "#008CB4",
       "size" : 18,
       "font" : ".AppleSystemUIFont"
     },
@@ -195,7 +203,7 @@
       "size" : 18,
       "underlineStyle" : 1,
       "font" : ".AppleSystemUIFont",
-      "color" : "#D38301"
+      "color" : "#FF8648"
     },
     "deadline" : {
       "regex" : "\\h+!(\\d{4}-\\d{2}-\\d{2})\\h*",
@@ -206,13 +214,13 @@
       "color" : "#33FFE67E"
     },
     "checked-canceled" : {
-      "strikethroughStyle" : 1,
-      "matchPosition" : 0,
       "regex" : "(^\\h*[\\*\\-]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
+      "matchPosition" : 0,
+      "strikethroughStyle" : 1,
       "color" : "#E22400"
     },
     "quote-content" : {
-      "color" : "#C2C2C2",
+      "color" : "#FFFFFF",
       "type" : "italic",
       "headIndent" : 33
     },
@@ -221,7 +229,8 @@
     },
     "boldItalic" : {
       "type" : "bolditalic",
-      "font" : ".AppleSystemUIFontBoldItalic"
+      "font" : ".AppleSystemUIFontBoldItalic",
+      "color" : "#FFFFFF"
     },
     "URL-links-left-bracket" : {
       "isRevealOnCursorRange" : true,
@@ -229,12 +238,12 @@
       "isMarkdownCharacter" : true,
       "matchPosition" : 1,
       "regex" : "(\\[)(.*?)(\\])(\\(.*\\))",
-      "color" : "#DA5100"
+      "color" : "#008CB4"
     },
     "flagged-1" : {
       "regex" : "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{1}\\h+.*)($|\\v)",
       "matchPosition" : 2,
-      "backgroundColor" : "#7A219E"
+      "backgroundColor" : "#15133C"
     },
     "italic-left-mark" : {
       "color" : "#3395E6CB"
@@ -256,7 +265,7 @@
     "flagged-2" : {
       "regex" : "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{2}\\h+.*)($|\\v)",
       "matchPosition" : 2,
-      "backgroundColor" : "#99244F"
+      "backgroundColor" : "#3C003C"
     },
     "todo" : {
       "size" : 16,
@@ -267,7 +276,7 @@
     "flagged-3" : {
       "regex" : "(^|\\v)(\\h*(\\*|-)\\h*(\\[ \\]\\h+|\\h+)\\!{3}\\h+.*)($|\\v)",
       "matchPosition" : 2,
-      "backgroundColor" : "#E22400"
+      "backgroundColor" : "#3C0000"
     },
     "checked-todo-characters" : {
       "font" : "noteplanstate",
@@ -284,8 +293,8 @@
       "isRevealOnCursorRange" : true,
       "strikethroughColor" : "#CBCCC6",
       "matchPosition" : 4,
-      "regex" : "(^|[\\W_])(?:(?!\\1)|(?=^))((\\~|_)\\3)(?=\\S)(.*?\\S)(\\3\\3)(?!\\2)(?=[\\W_]|$)",
-      "strikethroughStyle" : 1
+      "strikethroughStyle" : 1,
+      "regex" : "(^|[\\W_])(?:(?!\\1)|(?=^))((\\~|_)\\3)(?=\\S)(.*?\\S)(\\3\\3)(?!\\2)(?=[\\W_]|$)"
     },
     "schedule-from-date-link" : {
 
@@ -294,7 +303,7 @@
       "color" : "#33FFE67E"
     },
     "title1" : {
-      "color" : "#DA5100",
+      "color" : "#AD3E00",
       "size" : 28,
       "font" : ".AppleSystemUIFontHeavy"
     },
@@ -305,7 +314,7 @@
       "regex" : "(::)([^:]{1,})(::)"
     },
     "title3" : {
-      "color" : "#DA5100",
+      "color" : "#FF6A00",
       "size" : 20,
       "font" : ".AppleSystemUIFontMedium"
     }
@@ -317,15 +326,15 @@
   },
   "name" : "Apple Spark",
   "editor" : {
-    "toolbarBackgroundColor" : "#342F33",
+    "textColor" : "#FFFFFF",
     "tintColor" : "#F5EC00",
-    "timeBlockColor" : "#DA5100",
+    "timeBlockColor" : "#008CB4",
     "menuItemColor" : "#FFFFFF",
     "toolbarIconColor" : "#FFFFFF",
     "tintColor2" : "#008CB4",
     "altBackgroundColor" : "#000000",
     "shouldOverwriteFont" : false,
-    "backgroundColor" : "#000000",
-    "textColor" : "#EAEAEA"
+    "toolbarBackgroundColor" : "#3C3C3C",
+    "backgroundColor" : "#000000"
   }
 }
