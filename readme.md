@@ -124,6 +124,10 @@ Please read [contributing.md](contributing.md) for instructions on how to submit
 
 ![](img/rbone.png)
 
+### Rose Pine
+![](img/rose-pine.png)
+![](img/rose-pine-dawn.png)
+
 ### Scripture
 
 ![](img/scripture.png)

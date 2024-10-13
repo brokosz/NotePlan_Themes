@@ -1,0 +1,257 @@
+{
+  "name": "Rose Pine",
+  "style": "Dark",
+  "author": {
+    "name": "Marcos Souza",
+    "email": "me@msouza.tech"
+  },
+
+  "editor": {
+    "backgroundColor": "#191724",
+    "altBackgroundColor": "#1f1d2e",
+    "tintColor": "#c4a7e7",
+    "tintColor2": "#31748f",
+    "textColor": "#e0def4",
+    "toolbarBackgroundColor": "#342F33",
+    "toolbarIconColor": "#908caa",
+    "menuItemColor": "#908caa",
+    "timeBlockColor": "#ebbcba",
+    "shouldOverwriteFont": true
+  },
+
+  "styles": {
+    "body": {
+      "font": "AvenirNext-Regular",
+      "size": 16,
+      "color": "#e0def4"
+    },
+
+    "title1": {
+      "color": "#9ccfd8",
+      "size": 28
+    },
+
+    "title2": {
+      "color": "#9ccfd8",
+      "size": 24
+    },
+
+    "title3": {
+      "color": "#9ccfd8",
+      "size": 20
+    },
+
+    "title4": {
+      "color": "#9ccfd8",
+      "size": 18,
+      "underlineStyle": 1
+    },
+
+    "working-on": {
+      "backgroundColor": "#6FEEF1ED",
+      "color": "#31748f"
+    },
+
+    "flagged-1": {
+      "backgroundColor": "#2238313F",
+      "color": "#d7827e"
+    },
+
+    "flagged-2": {
+      "backgroundColor": "#40393137",
+      "color": "#f6c177"
+    },
+
+    "flagged-3": {
+      "backgroundColor": "#3038273B",
+      "color": "#eb6f92"
+    },
+
+    "title-mark1": {
+      "color": "#339ccfd8",
+      "size": 28
+    },
+
+    "title-mark2": {
+      "color": "#339ccfd8",
+      "size": 24
+    },
+
+    "title-mark3": {
+      "color": "#339ccfd8",
+      "size": 20
+    },
+
+    "title-mark4": {
+      "color": "#339ccfd8",
+      "size": 18
+    },
+
+    "bold": {
+      "color": "#31748f",
+      "type": "bold"
+    },
+
+    "bold-left-mark": {
+      "color": "#339ccfd8"
+    },
+
+    "bold-right-mark": {
+      "color": "#339ccfd8"
+    },
+
+    "italic": {
+      "color": "#9ccfd8",
+      "type": "italic"
+    },
+
+    "italic-left-mark": {
+      "color": "#339ccfd8"
+    },
+
+    "italic-right-mark": {
+      "color": "#339ccfd8"
+    },
+
+    "boldItalic": {
+      "type": "bolditalic"
+    },
+
+    "boldItalic-left-mark": {
+      "color": "#339ccfd8"
+    },
+
+    "boldItalic-right-mark": {
+      "color": "#339ccfd8"
+    },
+
+    "code": {
+      "font": "Menlo-Regular",
+      "color": "#c4a7e7",
+      "backgroundColor": "#33332E44",
+      "size": 15
+    },
+
+    "code-left-backtick": {
+      "color": "#66c4a7e7",
+      "backgroundColor": "#33332E44"
+    },
+
+    "code-right-backtick": {
+      "color": "#66c4a7e7",
+      "backgroundColor": "#33332E44"
+    },
+
+    "checked": {
+      "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[x\\] )(.*)",
+      "matchPosition": 0,
+
+      "color": "#889ccfd8",
+      "headIndent": 33
+    },
+
+    "checked-canceled": {
+      "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\-\\] )(.*)",
+      "matchPosition": 0,
+
+      "color": "#44eb6f92",
+      "strikethroughStyle": 1,
+      "headIndent": 33
+    },
+
+    "checked-scheduled": {
+      "regex": "(^\\h*[\\*\\-\\+]{1} |^\\h*[0-9]+[\\.\\)] )(\\[\\>\\] )(.*)",
+      "matchPosition": 0,
+
+      "color": "#88f6c177",
+      "headIndent": 33
+    },
+
+    "todo": {
+      "color": "#f6c177",
+      "headIndent": 33,
+      "size": 16
+    },
+
+    "checked-todo-characters": {
+      "headIndent": 33,
+      "size": 16
+    },
+
+    "tabbed": {
+      "headIndent": 43
+    },
+
+    "quote-mark": {
+      "color": "#80c4a7e7",
+      "headIndent": 33,
+      "size": 16
+    },
+
+    "quote-content": {
+      "color": "#CCe0def4",
+      "type": "italic",
+      "headIndent": 33
+    },
+
+    "link": {},
+
+    "schedule-to-date-link": {},
+
+    "done-date": {},
+
+    "schedule-from-date-link": {},
+
+    "note-title-link": {},
+
+    "hashtag": {
+      "backgroundColor": "#4031748f"
+    },
+
+    "attag": {
+      "backgroundColor": "#4031748f"
+    },
+
+    "phonenumber": {
+      "backgroundColor": "#6631748f"
+    },
+
+    "highlighted": {
+      "backgroundColor": "#449ccfd8"
+    },
+
+    "highlighted-left-marker": {
+      "color": "#409ccfd8"
+    },
+
+    "highlighted-right-marker": {
+      "color": "#409ccfd8"
+    },
+
+    "strikethrough": {
+      "color": "#AAebbcba",
+      "strikethroughColor": "#ebbcba"
+    },
+
+    "strikethrough-left-tilde": {
+      "color": "#55e0def4"
+    },
+
+    "strikethrough-right-tilde": {
+      "color": "#55e0def4"
+    },
+
+    "underline": {
+      "underlineStyle": 2,
+      "underlineColor": "#f6c177"
+    },
+
+    "underline-left-tilde": {
+      "color": "#55e0def4"
+    },
+
+    "underline-right-tilde": {
+      "color": "#55e0def4"
+    }
+  }
+}
